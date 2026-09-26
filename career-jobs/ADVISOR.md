@@ -13,7 +13,31 @@ Build an evidence-based personal advisor that helps the user become an excellent
 software engineer and obtain strong roles at their explicit MANGOS targets,
 Silicon Valley companies and startups, and international technology hubs.
 
-The intended experience has three connected modes:
+Latest priority: mentorship and technical guidance quality come first. The user
+wants advice informed by exact resume/project knowledge, like a technically
+strong senior engineer/CTO who understands their ambitions, along with discovery
+of the most beneficial mentorship programs, retreats, bootcamps, accelerators,
+communities and information sessions. Do not promise perfect personalization or
+pretend the agent has human experience or a personal network. Improve evidence,
+project assessment, current research and feedback before bulk data collection.
+See [MENTORSHIP.md](MENTORSHIP.md) for the concrete implementation and evaluation
+plan. Recurse Center and LFX are positive examples to guide discovery, not the
+only candidates or established best choices for the user.
+
+Architecture decision: one saved advisor with career and technical-mentor modes,
+selected from the user's request. Share confirmed goals and compact capability
+evidence, retrieve task-relevant material and evaluate both tasks separately.
+The user raised specialization concerns and accepted combining the functions if
+appropriate. Start with focused instructions; split only if observed quality
+problems or differing tools/permissions justify it. Mode instructions alone do
+not isolate context or implement automatic memory. See MENTORSHIP.md.
+The user explicitly wants automatic mode transitions: assess a material skill
+gap when a recommendation depends on it, using existing evidence first and a
+brief diagnostic if needed, then return to the original career decision. Do not
+require manual mode selection or permission for these conversational transitions.
+Do not over-test, infer proficiency without evidence or claim automatic saving.
+
+The intended experience has three connected capabilities:
 
 1. Career coaching: resume review, specialty selection, skill-gap analysis,
    project and learning choices, actionable daily/weekly plans, and progress reviews.
@@ -79,6 +103,35 @@ admires, cite the correct sources, and expose gaps and uncertainty. Large lists
 remain retrievable without sending every biography in every prompt. Durable
 catalog now has a private local seed; live research, indexing and automated
 updates remain unimplemented.
+
+### Profile collection design — saved for future work
+
+The user explicitly requested retaining this three-part collection plan:
+
+1. Aspirational examples: technical leaders, founding engineers, CTOs and strong
+   individual contributors whose work reflects the user's desired direction.
+2. Reachable next-stage examples: engineers a few career steps ahead, with
+   transitions relevant to the user's starting point and accessible intermediate
+   roles. Compare earlier stages as well as present positions.
+3. Potential mentors: relevant practitioners with evidence of willingness to
+   answer questions, review work, collaborate or mentor. Separate a possible
+   contact from someone who has actually agreed to help.
+
+Categories may overlap. Keep the private catalog in
+/.career-advisor-private/role-models.md; keep personal notes outside tracked files.
+For each entry record why the user admires them, work history/responsibility,
+demonstrated systems/projects, technical writing/repos/talks, sources, dates,
+uncertainties, and mentor availability when known. Include varied trajectories;
+do not infer causal recipes or success probabilities from selected biographies.
+
+Proposed pilot: 10–15 carefully documented profiles across these categories,
+expanding toward 50–100 if useful. These are practical planning sizes, not proven
+accuracy thresholds. Collection beyond the initial supplied examples has not
+started. Evaluate correct attribution, source-backed career comparisons and
+usefulness of next-role recommendations before expanding. Retrieve relevant
+evidence rather than placing every biography in every prompt. Pair career
+examples with current jobs, actual team evidence and user progress; profile
+volume alone cannot establish better advice or predict career outcomes.
 
 ### Quality and direction of the next role
 
@@ -319,6 +372,11 @@ not start because checkout Node dependencies were absent (rimraf not found).
 
 ## Delivery sequence and acceptance criteria
 
+Priority override from the latest user clarification: first deepen project-based
+assessment, personalized program discovery and ongoing mentorship per
+[MENTORSHIP.md](MENTORSHIP.md). Broad job collection remains a requirement, but
+does not take precedence over the quality of the first useful coaching loop.
+
 ### 1. Personal profile and saved advisor
 
 Collect missing inputs above. Extract the resume, have the user correct the
@@ -393,9 +451,13 @@ resume conflicts were resolved in the LibreChat conversation, but those reported
 corrections have not yet been applied to the local private profile or uploaded
 reference. Obtain direct confirmation before treating the revised file as approved.
 
-The user supplied a LinkedIn link identifying the initially ambiguous role model;
-recorded privately. Direct retrieval was blocked by robots.txt, so biographical
-claims remain unverified. Collect accessible public evidence and the specific
+The user supplied a LinkedIn link identifying the initially ambiguous role model,
+then pasted its experience section. The private role-model catalog now preserves
+the reported dates, titles, technologies, funding claims and source links, with
+interpretation separate. Direct retrieval was blocked by robots.txt; the paste
+is usable source evidence but has not been independently verified. Do not infer
+comparative work ethic or causal effects of market events from the profile.
+Collect accessible public evidence and the specific
 qualities the user admires. Both near-term and long-term horizons
 and combined technical/leadership/founder interests are now confirmed. Clarify
 compensation preferences and preferred frontier domains before ranking roles
@@ -409,3 +471,13 @@ stages 1–2 with bounded research before large-scale collection or unattended s
 Web research integration, new collectors, scheduler, semantic job matching,
 application tracker and strict budget cap remain unimplemented. LibreChat File
 Search embeddings have now been configured and tested separately as noted above.
+
+LinkedIn access research (2026-09-26): official
+[API access documentation](https://learn.microsoft.com/en-us/linkedin/shared/authentication/getting-access)
+and [Profile API documentation](https://learn.microsoft.com/en-us/linkedin/shared/integrations/people/profile-api)
+confirm that ordinary sign-in permissions do not provide arbitrary third-party
+profile histories; broader access requires approved permissions and carries data
+use/storage restrictions. No LinkedIn connector has been installed or tested.
+The practical research design remains accessible public web research plus
+user-supplied profile text/documents indexed through existing File Search. Do not
+promise complete LinkedIn access from a scraper, browser tool or MCP wrapper.

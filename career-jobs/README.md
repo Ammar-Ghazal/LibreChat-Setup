@@ -12,6 +12,10 @@ Read [ADVISOR.md](ADVISOR.md) for the user's requirements, privacy and cost
 constraints, verified installation state, missing inputs and staged delivery plan.
 Keep that brief current when implementing the career advisor; this README covers
 the starter job service and its operation.
+The current priority is technical mentorship quality; see
+[MENTORSHIP.md](MENTORSHIP.md) for project assessment, program discovery, progress
+tracking and evaluation requirements. These planned capabilities are not created
+by updating the documents.
 
 ### Load the prepared advisor into LibreChat
 
@@ -40,9 +44,9 @@ The repository documents do not automatically enter a model's context.
    separate integration to configure and test. Updating files here does not
    update an uploaded copy; replace the agent attachment when a profile is revised.
 
-The draft and reference catalog have been prepared and the user reports creating
-the agent. Reference upload, fresh-chat retrieval and web research have not been
-verified yet. See ADVISOR.md for the tested File Search configuration.
+The saved agent and reference upload/retrieval have been verified, including
+user-supplied successful chat responses. Web research remains unverified for this
+agent. See ADVISOR.md for the tested File Search configuration and later updates.
 
 ## Install in VS Code
 
