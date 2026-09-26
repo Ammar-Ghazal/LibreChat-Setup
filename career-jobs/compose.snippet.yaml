@@ -1,0 +1,22 @@
+# Merge into LibreChat/docker-compose.override.yml under its existing services.
+services:
+  api:
+    volumes:
+      - type: bind
+        source: ./librechat.yaml
+        target: /app/librechat.yaml
+        read_only: true
+  jobs:
+    build: ./career-jobs
+    restart: unless-stopped
+    volumes:
+      - career-jobs-data:/data
+      - ./career-jobs/sources.json:/app/sources.json:ro
+    # No published host port. Accessible within the Compose network only.
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+# Merge into the existing top-level volumes section, or add it if absent.
+volumes:
+  career-jobs-data:

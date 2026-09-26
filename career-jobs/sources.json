@@ -1,0 +1,5 @@
+[
+  {"source": "greenhouse", "board": "stripe", "company": "Stripe", "enabled": true},
+  {"source": "lever", "board": "weride", "company": "WeRide", "enabled": true},
+  {"source": "ashby", "board": "linear", "company": "Linear", "enabled": true}
+]
