@@ -1,5 +1,13 @@
 See CLAUDE.md.
 
+## Local career advisor
+
+For the local career advisor and `career-jobs` integration, read
+[`career-jobs/ADVISOR.md`](career-jobs/ADVISOR.md) before planning or changing the
+feature. It records the user's requirements, verified state, constraints and next
+steps. Keep it current as work is verified; distinguish proposed from completed
+capabilities and preserve private documents outside tracked source files.
+
 ## Branching and pull requests
 
 Normally branch off `dev` and target `dev`; `gh pr create` defaults to `main`, so pass `--base dev`

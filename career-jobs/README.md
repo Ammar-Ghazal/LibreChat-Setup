@@ -6,6 +6,44 @@ separate SQLite database on your Mac's Docker storage, and exposes four read-onl
 MCP tools. Collection, updates, keyword search and skill counts make no LLM calls.
 Your LibreChat conversations still incur your selected provider's API charges.
 
+## Career advisor project direction
+
+Read [ADVISOR.md](ADVISOR.md) for the user's requirements, privacy and cost
+constraints, verified installation state, missing inputs and staged delivery plan.
+Keep that brief current when implementing the career advisor; this README covers
+the starter job service and its operation.
+
+### Load the prepared advisor into LibreChat
+
+The repository documents do not automatically enter a model's context.
+
+1. In Agent Builder, create or edit the career advisor. Copy the contents of
+   [INSTRUCTIONS.md](INSTRUCTIONS.md) into its Instructions field.
+2. Add `career_jobs` and enable all four tools. Enable File Search for the
+   reference documents, and attach files to the agent so new chats can retrieve them.
+3. Attach the locally prepared `../.career-advisor-private/profile.md` and
+   [ECOSYSTEM.md](ECOSYSTEM.md). The profile is a draft: preserve its conflicts until
+   the user confirms corrections. Review the selected documents before upload;
+   retrieved contents are sent to the configured model provider. Git ignore does
+   not control uploads or model-provider processing.
+4. Save and open a new chat with the saved agent. Test:
+
+   > Retrieve my profile and ecosystem reference. Name my exact six MANGOS
+   > companies and four venture firms. Identify the unresolved resume dates and
+   > degree title. Distinguish a portfolio job application, a talent fellowship
+   > and a founder accelerator. Call dataset_status and explain which target
+   > companies are actually represented. Cite the retrieved files and do not
+   > claim a website was checked live unless a web tool was used.
+
+5. Verify file retrieval and tool calls visibly. If a file cannot be retrieved,
+   repair that path before trusting personalized advice. Web research remains a
+   separate integration to configure and test. Updating files here does not
+   update an uploaded copy; replace the agent attachment when a profile is revised.
+
+The draft and reference catalog have been prepared and the user reports creating
+the agent. Reference upload, fresh-chat retrieval and web research have not been
+verified yet. See ADVISOR.md for the tested File Search configuration.
+
 ## Install in VS Code
 
 1. Extract the download. Place the **career-jobs** folder directly inside your
@@ -179,6 +217,16 @@ docker compose cp jobs:/data/jobs-backup.sqlite3 ./jobs-backup.sqlite3
 ## Troubleshooting
 
 - Build fails: share the error; do not paste `.env`.
+- Agent reference upload says "Error processing file": check the RAG service
+  error as well as the API logs. In this installation, OpenAI rejected the default
+  `text-embedding-3-small` model. The root Compose override now explicitly sets
+  `services.rag_api.environment.EMBEDDINGS_PROVIDER: openai` and
+  `services.rag_api.environment.EMBEDDINGS_MODEL: text-embedding-3-large`, whose
+  access was verified. Recreate only `rag_api` after changing its environment.
+  Before any future embedding-model change, inspect existing indexed data and
+  plan compatible reindexing; different models must not be mixed in one search
+  index. Do not delete volumes to fix a model permission error. This setting is
+  for LibreChat document search and does not add embeddings to the jobs database.
 - MCP not visible: verify the YAML mount, `allowedAddresses`, and tool selection.
   Run `docker compose logs --tail=60 api jobs` and review before sharing.
 - `EISDIR` while loading configuration: `/app/librechat.yaml` is a directory.
