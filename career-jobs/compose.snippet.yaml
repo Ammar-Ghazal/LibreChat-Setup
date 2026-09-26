@@ -6,6 +6,8 @@ services:
         source: ./librechat.yaml
         target: /app/librechat.yaml
         read_only: true
+        bind:
+          create_host_path: false
   jobs:
     build: ./career-jobs
     restart: unless-stopped

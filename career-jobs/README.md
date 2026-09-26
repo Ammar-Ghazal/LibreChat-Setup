@@ -181,6 +181,16 @@ docker compose cp jobs:/data/jobs-backup.sqlite3 ./jobs-backup.sqlite3
 - Build fails: share the error; do not paste `.env`.
 - MCP not visible: verify the YAML mount, `allowedAddresses`, and tool selection.
   Run `docker compose logs --tail=60 api jobs` and review before sharing.
+- `EISDIR` while loading configuration: `/app/librechat.yaml` is a directory.
+  Check the host path with `ls -ld librechat.yaml` and the container path with
+  `docker compose -f docker-compose.yml -f docker-compose.override.yml exec api ls -ld /app/librechat.yaml`.
+  Stop only `api`, preserve the host directory under an unused backup name,
+  and create a regular `librechat.yaml` file with your existing configuration.
+  Keep `bind.create_host_path: false` on the read-only configuration mount so
+  a missing file fails visibly instead of becoming a directory. Then run
+  `docker compose -f docker-compose.yml -f docker-compose.override.yml up -d --no-deps --force-recreate api`
+  and check startup logs for `career_jobs` and its four tools. If the paths are
+  already regular files and initialization succeeds, no recreation is needed.
 - API 403/404: check the official board URL and access availability; no login or
   access-control bypass is implemented. Other sources remain usable.
 - Empty results: inspect `dataset_status`, then try one keyword without a
