@@ -2,6 +2,7 @@
 mcpSettings:
   allowedAddresses:
     - 'jobs:8000'
+    - 'career-research:8001'
 mcpServers:
   career_jobs:
     type: streamable-http
@@ -10,3 +11,23 @@ mcpServers:
     serverInstructions: true
     timeout: 30000
     initTimeout: 30000
+  career_research:
+    type: streamable-http
+    url: http://career-research:8001/mcp
+    requiresOAuth: false
+    serverInstructions: true
+    timeout: 30000
+    initTimeout: 30000
+webSearch:
+  searchProvider: keenable
+  scraperProvider: keenable
+  rerankerType: jina
+  jinaApiUrl: '${CAREER_RERANKER_URL}'
+  jinaApiKey: '${CAREER_RERANKER_KEY}'
+  allowedAddresses:
+    - 'career-research:8001'
+  keenableSearchOptions:
+    maxResults: 5
+    timeout: 15000
+  keenableScraperOptions:
+    timeout: 15000

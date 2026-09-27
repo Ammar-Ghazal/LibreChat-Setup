@@ -1,5 +1,176 @@
 [
-  {"source": "greenhouse", "board": "stripe", "company": "Stripe", "enabled": true},
-  {"source": "lever", "board": "weride", "company": "WeRide", "enabled": true},
-  {"source": "ashby", "board": "linear", "company": "Linear", "enabled": true}
+  {
+    "company": "Stripe",
+    "source": "greenhouse",
+    "board": "stripe",
+    "enabled": true
+  },
+  {
+    "company": "Anthropic",
+    "source": "greenhouse",
+    "board": "anthropic",
+    "enabled": true
+  },
+  {
+    "company": "OpenAI",
+    "source": "ashby",
+    "board": "openai",
+    "enabled": true
+  },
+  {
+    "company": "Linear",
+    "source": "ashby",
+    "board": "linear",
+    "enabled": true
+  },
+  {
+    "company": "Rilla",
+    "source": "ashby",
+    "board": "rilla",
+    "enabled": true
+  },
+  {
+    "company": "Federato",
+    "source": "greenhouse",
+    "board": "federato",
+    "enabled": true
+  },
+  {
+    "company": "WeRide",
+    "source": "lever",
+    "board": "weride",
+    "enabled": true
+  },
+  {
+    "company": "Cursor",
+    "source": "ashby",
+    "board": "cursor",
+    "enabled": true
+  },
+  {
+    "company": "SpaceX",
+    "source": "greenhouse",
+    "board": "spacex",
+    "enabled": true
+  },
+  {
+    "company": "Vercel",
+    "source": "greenhouse",
+    "board": "vercel",
+    "enabled": true
+  },
+  {
+    "company": "Ramp",
+    "source": "ashby",
+    "board": "ramp",
+    "enabled": true
+  },
+  {
+    "company": "Databricks",
+    "source": "greenhouse",
+    "board": "databricks",
+    "enabled": true
+  },
+  {
+    "company": "Figma",
+    "source": "greenhouse",
+    "board": "figma",
+    "enabled": true
+  },
+  {
+    "company": "Datadog",
+    "source": "greenhouse",
+    "board": "datadog",
+    "enabled": true
+  },
+  {
+    "company": "Modal",
+    "source": "ashby",
+    "board": "modal",
+    "enabled": true
+  },
+  {
+    "company": "Cohere",
+    "source": "ashby",
+    "board": "cohere",
+    "enabled": true
+  },
+  {
+    "company": "Anyscale",
+    "source": "lever",
+    "board": "anyscale",
+    "enabled": true
+  },
+  {
+    "company": "Scale AI",
+    "source": "greenhouse",
+    "board": "scaleai",
+    "enabled": true
+  },
+  {
+    "company": "Abridge",
+    "source": "ashby",
+    "board": "abridge",
+    "enabled": true
+  },
+  {
+    "company": "Perplexity",
+    "source": "ashby",
+    "board": "perplexity",
+    "enabled": true
+  },
+  {
+    "company": "Together AI",
+    "source": "greenhouse",
+    "board": "togetherai",
+    "enabled": true
+  },
+  {
+    "company": "Mercor",
+    "source": "ashby",
+    "board": "mercor",
+    "enabled": true
+  },
+  {
+    "company": "Adyen",
+    "source": "greenhouse",
+    "board": "adyen",
+    "enabled": true
+  },
+  {
+    "company": "ElevenLabs",
+    "source": "ashby",
+    "board": "elevenlabs",
+    "enabled": true
+  },
+  {
+    "company": "Waabi",
+    "source": "lever",
+    "board": "waabi",
+    "enabled": true
+  },
+  {
+    "company": "Notion",
+    "source": "ashby",
+    "board": "notion",
+    "enabled": true
+  },
+  {
+    "company": "Runway (Financial Planning)",
+    "source": "ashby",
+    "board": "runway",
+    "enabled": true
+  },
+  {
+    "company": "Anyscale",
+    "source": "ashby",
+    "board": "anyscale",
+    "enabled": true
+  },
+  {
+    "company": "Runway AI",
+    "source": "ashby",
+    "board": "runway-ml",
+    "enabled": true
+  }
 ]

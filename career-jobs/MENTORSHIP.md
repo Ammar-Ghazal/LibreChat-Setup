@@ -128,6 +128,11 @@ assessments is valuable and should inform later guidance where available.
 
 ## Delivery order
 
+Planning update, 2026-09-27: native web search and page extraction now work,
+and the user supplied a completed RC/LFX comparison. Research completeness and
+citations remain unverified; the no-reranker passage omission is documented in
+WEB_RESEARCH.md. This supersedes the original provider-setup status below.
+
 1. Synchronize reviewed instructions/reference snapshots and assess one project.
 2. Configure and verify bounded web search plus reading official program pages.
    Native LibreChat webSearch supports these components; provider setup is not
@@ -163,3 +168,41 @@ Representative cases:
 
 Record failures, costs and user feedback. No claim of perfect personalization or
 measured improvement is warranted until actual evaluations support it.
+
+## Proposed expansion around intended outcomes
+
+The user asks whether to build a comprehensive database. Recommend a growing,
+connected evidence library plus live verification; no bulk collection or new
+service is authorized/implemented merely by this proposal. Measure coverage of
+target employers, roles, regions and learning pathways rather than claiming
+worldwide completeness from a record count.
+
+Prioritize these deliverables:
+
+1. Reliable retrieval and citation checks, including facts near page endings.
+2. A revision-linked assessment of one actual project and editable cross-chat
+   records of demonstrated skills, goals, decisions and completed work.
+3. A curated pilot connecting employers/teams and jobs, the three profile
+   categories, and learning programs/communities. Suggested initial scope:
+   30–50 employers, 10–15 profiles and 15–25 learning opportunities; these are
+   planning ranges, not accuracy thresholds or completed collection counts.
+4. Explainable comparisons with current readiness separate from developmental
+   value: capable colleagues, access to feedback, relevant systems ownership,
+   resources, advancement and transfer toward long-term technical leadership.
+   Unknown team conditions become interview/research questions; do not impose
+   an hours cap, equate funding with quality, or infer private relationships.
+5. A concrete action-and-review loop: a short role/program shortlist, a 90-day
+   development plan, a provisional longer-term roadmap, technical review tasks,
+   and tracking of applications, outreach drafts and observed outcomes.
+
+For collection, prefer existing ATS collectors and official structured feeds;
+use page extraction for engineering blogs, program details, talks and public
+professional evidence. Preserve source text/URLs, dates, identities, conflicts,
+refresh status and explicit evidence-versus-inference distinctions. Add duplicate
+grouping, configurable refresh and failure visibility as collection grows. Keep
+personal assessments and relationship notes outside tracked source files.
+
+Acceptance should test whether recommendations cite actual evidence, explain a
+credible next step toward the user's ambitions, survive fresh-session retrieval,
+change appropriately after demonstrated progress, and lead to useful technical
+work or real opportunities. Database size alone is not a success criterion.

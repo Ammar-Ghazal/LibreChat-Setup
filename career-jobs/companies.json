@@ -1,0 +1,1675 @@
+[
+  {
+    "id": "anthropic",
+    "name": "Anthropic",
+    "category": "MANGOS",
+    "careers_url": "https://job-boards.greenhouse.io/anthropic",
+    "specialties": [
+      "AI",
+      "agents",
+      "machine learning",
+      "infrastructure"
+    ],
+    "regions": [
+      "New York City, NY; San Francisco, CA | New York City, NY",
+      "Singapore",
+      "Dublin, IE",
+      "San Francisco, CA | New York City, NY",
+      "San Francisco, CA | Seattle, WA",
+      "San Francisco, CA",
+      "London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA",
+      "Bangalore, India",
+      "Seoul, South Korea",
+      "Mumbai, India",
+      "Sydney, Australia",
+      "Tokyo, Japan",
+      "London, UK",
+      "Munich, Germany",
+      "San Francisco, CA | New York City, NY | Seattle, WA",
+      "New York City, NY; San Francisco, CA | New York City, NY | Seattle, WA"
+    ],
+    "job_source": {
+      "source": "greenhouse",
+      "board": "anthropic"
+    },
+    "coverage": "Public board snapshot imported; use dataset_status for current counts and freshness.",
+    "evidence": [
+      {
+        "kind": "engineering",
+        "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391151008",
+        "checked_at": "2026-09-27T09:24:10.173637+00:00",
+        "claim": "Employer posting: AI Operations Engineer, Partnerships (San Francisco, CA). Description is employer-reported work, not independently verified team quality.",
+        "excerpt": "Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems."
+      },
+      {
+        "kind": "engineering",
+        "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390799008",
+        "checked_at": "2026-09-27T09:24:10.173637+00:00",
+        "claim": "Employer posting: Applied AI Engineer (Tokyo, Japan). Description is employer-reported work, not independently verified team quality.",
+        "excerpt": "Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems."
+      }
+    ],
+    "unknowns": [
+      "Actual mentor access, review cadence and advancement prospects",
+      "Current financial runway and team-specific resources",
+      "Role-specific eligibility and sponsorship; inspect each full posting",
+      "Funding evidence not yet collected"
+    ]
+  },
+  {
+    "id": "google",
+    "name": "Google",
+    "category": "MANGOS",
+    "careers_url": "https://www.google.com/about/careers/applications/jobs/results/",
+    "specialties": [
+      "AI",
+      "distributed systems",
+      "software engineering"
+    ],
+    "regions": [],
+    "job_source": null,
+    "coverage": "Research catalog only; dedicated job collector not implemented. Search/read official current postings live.",
+    "evidence": [
+      {
+        "kind": "engineering",
+        "url": "https://research.google/",
+        "checked_at": "2026-09-27T09:24:10.173637+00:00",
+        "claim": "Official technical publication source for further team/system research; not evidence of mentor availability.",
+        "excerpt": "Networking; Software engineering; Software systems"
+      }
+    ],
+    "unknowns": [
+      "No local job feed; no exhaustive job coverage",
+      "Team-specific work and mentor access must be researched",
+      "Role-specific work authorization and sponsorship"
+    ]
+  },
+  {
+    "id": "meta",
+    "name": "Meta",
+    "category": "MANGOS",
+    "careers_url": "https://www.metacareers.com/",
+    "specialties": [
+      "AI",
+      "distributed systems",
+      "infrastructure"
+    ],
+    "regions": [],
+    "job_source": null,
+    "coverage": "Research catalog only; dedicated job collector not implemented. Search/read official current postings live.",
+    "evidence": [
+      {
+        "kind": "engineering",
+        "url": "https://engineering.fb.com/",
+        "checked_at": "2026-09-27T09:24:10.173637+00:00",
+        "claim": "Official technical publication source for further team/system research; not evidence of mentor availability.",
+        "excerpt": "technical news resource for engineers interested in how we solve large-scale technical challenges at Meta"
+      }
+    ],
+    "unknowns": [
+      "No local job feed; no exhaustive job coverage",
+      "Team-specific work and mentor access must be researched",
+      "Role-specific work authorization and sponsorship"
+    ]
+  },
+  {
+    "id": "nvidia",
+    "name": "NVIDIA",
+    "category": "MANGOS",
+    "careers_url": "https://www.nvidia.com/en-us/about-nvidia/careers/",
+    "specialties": [
+      "GPU",
+      "AI",
+      "hardware",
+      "systems"
+    ],
+    "regions": [],
+    "job_source": null,
+    "coverage": "Research catalog only; dedicated job collector not implemented. Search/read official current postings live.",
+    "evidence": [
+      {
+        "kind": "engineering",
+        "url": "https://developer.nvidia.com/blog/",
+        "checked_at": "2026-09-27T09:24:10.173637+00:00",
+        "claim": "Official technical publication source for further team/system research; not evidence of mentor availability.",
+        "excerpt": "NVIDIA Technical Blog"
+      }
+    ],
+    "unknowns": [
+      "No local job feed; no exhaustive job coverage",
+      "Team-specific work and mentor access must be researched",
+      "Role-specific work authorization and sponsorship"
+    ]
+  },
+  {
+    "id": "openai",
+    "name": "OpenAI",
+    "category": "MANGOS",
+    "careers_url": "https://jobs.ashbyhq.com/openai",
+    "specialties": [
+      "AI",
+      "distributed systems",
+      "machine learning"
+    ],
+    "regions": [
+      "San Francisco",
+      "Tokyo, Japan",
+      "São Paulo",
+      "San Francisco; London, UK",
+      "San Francisco; New York City; Seattle; Mountain View",
+      "San Francisco; Mountain View",
+      "San Francisco; New York City; Mountain View",
+      "US - Remote; New York City; Seattle; Washington, DC; San Francisco",
+      "San Francisco; New York City; Seattle; US - Remote",
+      "San Francisco; US - Remote",
+      "San Francisco; New York City; US - Remote",
+      "San Francisco; New York City",
+      "US - Remote; San Francisco",
+      "San Francisco; New York City; London, UK",
+      "New York City",
+      "Dublin, Ireland"
+    ],
+    "job_source": {
+      "source": "ashby",
+      "board": "openai"
+    },
+    "coverage": "Public board snapshot imported; use dataset_status for current counts and freshness.",
+    "evidence": [
+      {
+        "kind": "engineering",
+        "url": "https://jobs.ashbyhq.com/openai/240d459b-696d-43eb-8497-fab3e56ecd9b",
+        "checked_at": "2026-09-27T09:24:10.173637+00:00",
+        "claim": "Employer posting: Research Engineer (San Francisco). Description is employer-reported work, not independently verified team quality.",
+        "excerpt": "By applying to this role, you will be considered for Research Engineer roles across all teams at OpenAI."
+      },
+      {
+        "kind": "engineering",
+        "url": "https://jobs.ashbyhq.com/openai/7322d344-9325-4a92-8445-0a2c4e9272f8",
+        "checked_at": "2026-09-27T09:24:10.173637+00:00",
+        "claim": "Employer posting: Research Engineer, Retrieval & Search, Applied Engineering (San Francisco). Description is employer-reported work, not independently verified team quality.",
+        "excerpt": "About the Team"
+      }
+    ],
+    "unknowns": [
+      "Actual mentor access, review cadence and advancement prospects",
+      "Current financial runway and team-specific resources",
+      "Role-specific eligibility and sponsorship; inspect each full posting",
+      "Funding evidence not yet collected"
+    ]
+  },
+  {
+    "id": "spacex",
+    "name": "SpaceX",
+    "category": "MANGOS",
+    "careers_url": "https://job-boards.greenhouse.io/spacex",
+    "specialties": [
+      "aerospace",
+      "embedded",
+      "software",
+      "networking"
+    ],
+    "regions": [
+      "Palo Alto, CA",
+      "Hawthorne, CA",
+      "Bastrop, TX",
+      "Woodinville, WA",
+      "Starbase, TX",
+      "Washington, DC",
+      "Redmond, WA",
+      "Irvine, CA",
+      "Cape Canaveral, FL",
+      "Vandenberg, CA",
+      "McGregor, TX",
+      "Memphis, TN",
+      "Austin, TX",
+      "College Station, TX",
+      "Westminster, MD",
+      "Pecan Island, LA"
+    ],
+    "job_source": {
+      "source": "greenhouse",
+      "board": "spacex"
+    },
+    "coverage": "Public board snapshot imported; use dataset_status for current counts and freshness.",
+    "evidence": [
+      {
+        "kind": "engineering",
+        "url": "https://boards.greenhouse.io/spacex/jobs/8816517002?gh_jid=8816517002",
+        "checked_at": "2026-09-27T09:24:10.173637+00:00",
+        "claim": "Employer posting: Additive Manufacturing Engineer (Raptor) (Hawthorne, CA). Description is employer-reported work, not independently verified team quality.",
+        "excerpt": "SpaceX was founded under the belief that a future where humanity is out exploring the stars is fundamentally more exciting than one where we are not. Today SpaceX is actively developing the technologies to make this possible, with the ultimate goal of enabling human life on Mars."
+      },
+      {
+        "kind": "engineering",
+        "url": "https://boards.greenhouse.io/spacex/jobs/8558715002?gh_jid=8558715002",
+        "checked_at": "2026-09-27T09:24:10.173637+00:00",
+        "claim": "Employer posting: Aerodynamics Engineer (Starship) (Starbase, TX). Description is employer-reported work, not independently verified team quality.",
+        "excerpt": "SpaceX was founded under the belief that a future where humanity is out exploring the stars is fundamentally more exciting than one where we are not. Today SpaceX is actively developing the technologies to make this possible, with the ultimate goal of enabling human life on Mars."
+      }
+    ],
+    "unknowns": [
+      "Actual mentor access, review cadence and advancement prospects",
+      "Current financial runway and team-specific resources",
+      "Role-specific eligibility and sponsorship; inspect each full posting",
+      "Funding evidence not yet collected"
+    ]
+  },
+  {
+    "id": "abridge",
+    "name": "Abridge",
+    "category": "target-employer",
+    "careers_url": "https://jobs.ashbyhq.com/abridge",
+    "specialties": [
+      "AI",
+      "healthcare",
+      "speech"
+    ],
+    "regions": [
+      "SF Office; NYC Office",
+      "United States - Remote",
+      "SF Office",
+      "United States - Remote; SF Office; NYC Office",
+      "NYC Office",
+      "California",
+      "Remote - Tier 1; Remote - Tier 3; Remote - Tier 2",
+      "Remote - Tier 1",
+      "California; SF Office; NYC Office",
+      "NYC Office; SF Office",
+      "CHI Office; United States - Remote"
+    ],
+    "job_source": {
+      "source": "ashby",
+      "board": "abridge"
+    },
+    "coverage": "Public board snapshot imported; use dataset_status for current counts and freshness.",
+    "evidence": [
+      {
+        "kind": "engineering",
+        "url": "https://jobs.ashbyhq.com/abridge/7a28a84b-6756-4fe6-8af9-501fc8772a62",
+        "checked_at": "2026-09-27T09:24:10.173637+00:00",
+        "claim": "Employer posting: Senior Full Stack Engineer, Integrations VistA  (United States - Remote). Description is employer-reported work, not independently verified team quality.",
+        "excerpt": "Our enterprise-grade technology transforms patient-clinician conversations into structured clinical notes in real-time, with deep EMR integrations. Powered by Linked Evidence and our purpose-built, auditable AI, we are the only company that maps AI-generated summaries to ground truth, helping providers quickly trust and verify the output. As pioneers in generative AI for healthcare, we are setting"
+      },
+      {
+        "kind": "engineering",
+        "url": "https://jobs.ashbyhq.com/abridge/57967034-08cb-4cfe-8243-4e9564acc32e",
+        "checked_at": "2026-09-27T09:24:10.173637+00:00",
+        "claim": "Employer posting: Senior Application Security Engineer (SF Office). Description is employer-reported work, not independently verified team quality.",
+        "excerpt": "Our enterprise-grade technology transforms patient-clinician conversations into structured clinical notes in real-time, with deep EMR integrations. Powered by Linked Evidence and our purpose-built, auditable AI, we are the only company that maps AI-generated summaries to ground truth, helping providers quickly trust and verify the output. As pioneers in generative AI for healthcare, we are setting"
+      }
+    ],
+    "unknowns": [
+      "Actual mentor access, review cadence and advancement prospects",
+      "Current financial runway and team-specific resources",
+      "Role-specific eligibility and sponsorship; inspect each full posting",
+      "Funding evidence not yet collected"
+    ]
+  },
+  {
+    "id": "adyen",
+    "name": "Adyen",
+    "category": "target-employer",
+    "careers_url": "https://job-boards.greenhouse.io/adyen",
+    "specialties": [
+      "payments",
+      "embedded",
+      "software"
+    ],
+    "regions": [
+      "Paris",
+      "Mexico City",
+      "Shanghai",
+      "São Paulo",
+      "Kuala Lumpur",
+      "Madrid",
+      "Berlin",
+      "Amsterdam",
+      "Stockholm",
+      "Singapore",
+      "Chicago",
+      "San Francisco",
+      "New York",
+      "Amsterdam; London",
+      "Chicago; San Francisco",
+      "Sao Jose dos Campos"
+    ],
+    "job_source": {
+      "source": "greenhouse",
+      "board": "adyen"
+    },
+    "coverage": "Public board snapshot imported; use dataset_status for current counts and freshness.",
+    "evidence": [
+      {
+        "kind": "engineering",
+        "url": "https://job-boards.greenhouse.io/adyen/jobs/7618901",
+        "checked_at": "2026-09-27T09:24:10.173637+00:00",
+        "claim": "Employer posting: AOSP Engineer (Amsterdam). Description is employer-reported work, not independently verified team quality.",
+        "excerpt": "For our teams, we create an environment with opportunities for our people to succeed, backed by the culture and support to ensure they are enabled to truly own their careers. We are motivated individuals who tackle unique technical challenges at scale and solve them as a team. Together, we deliver innovative and ethical solutions that help businesses achieve their ambitions faster."
+      },
+      {
+        "kind": "engineering",
+        "url": "https://job-boards.greenhouse.io/adyen/jobs/8018245",
+        "checked_at": "2026-09-27T09:24:10.173637+00:00",
+        "claim": "Employer posting: Developer Relations Engineer (San Francisco). Description is employer-reported work, not independently verified team quality.",
+        "excerpt": "For our teams, we create an environment with opportunities for our people to succeed, backed by the culture and support to ensure they are enabled to truly own their careers. We are motivated individuals who tackle unique technical challenges at scale and solve them as a team. Together, we deliver innovative and ethical solutions that help businesses achieve their ambitions faster."
+      }
+    ],
+    "unknowns": [
+      "Actual mentor access, review cadence and advancement prospects",
+      "Current financial runway and team-specific resources",
+      "Role-specific eligibility and sponsorship; inspect each full posting",
+      "Specific funding evidence not yet collected"
+    ]
+  },
+  {
+    "id": "anyscale",
+    "name": "Anyscale",
+    "category": "target-employer",
+    "careers_url": "https://jobs.ashbyhq.com/anyscale",
+    "specialties": [
+      "distributed systems",
+      "AI infrastructure"
+    ],
+    "regions": [
+      "San Francisco; Bay Area or Remote",
+      "Bengaluru, Karnataka",
+      "San Francisco; Palo Alto",
+      "San Francisco"
+    ],
+    "job_source": {
+      "source": "ashby",
+      "board": "anyscale"
+    },
+    "coverage": "Public board snapshot imported; use dataset_status for current counts and freshness.",
+    "evidence": [
+      {
+        "kind": "engineering",
+        "url": "https://jobs.ashbyhq.com/anyscale/8b29c5e5-d56f-4c52-8887-a6a1827cf042",
+        "checked_at": "2026-09-27T09:24:10.173637+00:00",
+        "claim": "Employer posting: Software Engineer, Ray Core (Bengaluru, Karnataka). Description is employer-reported work, not independently verified team quality.",
+        "excerpt": "At Anyscale https://www.anyscale.com/, we're on a mission to democratize distributed computing and make it accessible to software developers of all skill levels. We’re commercializing Ray https://docs.ray.io/en/latest/, a popular open-source project that's creating an ecosystem of libraries for scalable machine learning. Companies like OpenAI https://thenewstack.io/how-ray-a-distributed-ai-framewo"
+      },
+      {
+        "kind": "engineering",
+        "url": "https://jobs.ashbyhq.com/anyscale/1cf38233-8aa0-47f8-9d85-65ce27bc3047",
+        "checked_at": "2026-09-27T09:24:10.173637+00:00",
+        "claim": "Employer posting: Distributed LLM Inference Engineer (San Francisco; Palo Alto). Description is employer-reported work, not independently verified team quality.",
+        "excerpt": "At Anyscale https://www.anyscale.com/, we're on a mission to democratize distributed computing and make it accessible to software developers of all skill levels. We’re commercializing Ray https://docs.ray.io/en/latest/, a popular open-source project that's creating an ecosystem of libraries for scalable machine learning. Companies like OpenAI https://thenewstack.io/how-ray-a-distributed-ai-framewo"
+      },
+      {
+        "kind": "funding",
+        "url": "https://jobs.ashbyhq.com/anyscale/8b29c5e5-d56f-4c52-8887-a6a1827cf042",
+        "checked_at": "2026-09-27T09:24:10.173637+00:00",
+        "claim": "Employer-reported backing/funding in a job posting. Round date and current runway are not established by this excerpt.",
+        "excerpt": "Proud to be backed by Andreessen Horowitz, NEA, and Addition https://www.wsj.com/articles/ai-startup-anyscale-adds-99-million-to-andressen-horowitz-led-funding-round-11661254200 with $250+ million raised to date."
+      }
+    ],
+    "unknowns": [
+      "Actual mentor access, review cadence and advancement prospects",
+      "Current financial runway and team-specific resources",
+      "Role-specific eligibility and sponsorship; inspect each full posting"
+    ]
+  },
+  {
+    "id": "clio",
+    "name": "Clio",
+    "category": "target-employer",
+    "careers_url": "https://www.clio.com/about/careers/",
+    "specialties": [
+      "legal technology",
+      "AI",
+      "full stack"
+    ],
+    "regions": [],
+    "job_source": null,
+    "coverage": "Discovery only; no supported nonempty job feed imported. Read official careers page.",
+    "evidence": [],
+    "unknowns": [
+      "Actual mentor access, review cadence and advancement prospects",
+      "Current financial runway and team-specific resources",
+      "Role-specific eligibility and sponsorship; inspect each full posting",
+      "Funding evidence not yet collected"
+    ]
+  },
+  {
+    "id": "cohere",
+    "name": "Cohere",
+    "category": "target-employer",
+    "careers_url": "https://jobs.ashbyhq.com/cohere",
+    "specialties": [
+      "AI",
+      "enterprise AI",
+      "machine learning"
+    ],
+    "regions": [
+      "Toronto; Canada",
+      "London; San Francisco; New York; Paris; Toronto; Montreal",
+      "Europe; London",
+      "San Francisco; New York; San Francisco; Paris; Toronto; Montreal",
+      "Washington, DC",
+      "London; New York; Paris; Toronto; Montreal",
+      "Paris; San Francisco; London; New York; Toronto; Montreal",
+      "Middle East; Dubai; United Arab Emirates; Saudi Arabia; Riyadh",
+      "Toronto; San Francisco; London; New York; Paris; Montreal",
+      "Paris; London; New York; Toronto; Montreal",
+      "Europe; Brussels; Munich; London; Edinburgh; Paris; Berlin; United Kingdom; France; Frankfurt; Germany",
+      "United Kingdom; Brussels; Europe; Munich; London; Edinburgh; Paris; Berlin; France; Middle East; Frankfurt; Belgium",
+      "Toronto; Canada; Vancouver; Ottawa; Montreal",
+      "London; Europe; New York; Paris; Toronto",
+      "Toronto; San Francisco; Canada; Seattle; London; United States; New York",
+      "Canada; Toronto"
+    ],
+    "job_source": {
+      "source": "ashby",
+      "board": "cohere"
+    },
+    "coverage": "Public board snapshot imported; use dataset_status for current counts and freshness.",
+    "evidence": [
+      {
+        "kind": "engineering",
+        "url": "https://jobs.ashbyhq.com/cohere/7133d205-5421-4336-a8e2-6037b5f55073",
+        "checked_at": "2026-09-27T09:24:10.173637+00:00",
+        "claim": "Employer posting: Senior Full-Stack Engineer, Internal Applications  (Toronto; Canada). Description is employer-reported work, not independently verified team quality.",
+        "excerpt": "Cohere is the leading security-first enterprise AI company.  We build cutting-edge foundation AI models and end-to-end products that are designed to solve real-world business problems."
+      },
+      {
+        "kind": "engineering",
+        "url": "https://jobs.ashbyhq.com/cohere/d42f5fd4-1ffc-45b9-957c-f09862db6af6",
+        "checked_at": "2026-09-27T09:24:10.173637+00:00",
+        "claim": "Employer posting: Member of Technical Staff, Training Performance Engineer (London; New York; Paris; Toronto; Montreal). Description is employer-reported work, not independently verified team quality.",
+        "excerpt": "Cohere is the leading security-first enterprise AI company.  We build cutting-edge foundation AI models and end-to-end products that are designed to solve real-world business problems."
+      },
+      {
+        "kind": "funding",
+        "url": "https://cohere.com/blog/august-2025-funding-round",
+        "checked_at": "2026-09-27T09:24:10.173637+00:00",
+        "claim": "2025-08-14 announcement: $500M funding led by Radical Ventures and Inovia Capital. Historical round; not a claim this is its latest financing.",
+        "excerpt": "Cohere raises $500M at $6.8B valuation"
+      }
+    ],
+    "unknowns": [
+      "Actual mentor access, review cadence and advancement prospects",
+      "Current financial runway and team-specific resources",
+      "Role-specific eligibility and sponsorship; inspect each full posting"
+    ]
+  },
+  {
+    "id": "cursor",
+    "name": "Cursor",
+    "category": "target-employer",
+    "careers_url": "https://jobs.ashbyhq.com/cursor",
+    "specialties": [
+      "AI",
+      "developer tools"
+    ],
+    "regions": [
+      "San Francisco; New York",
+      "Austin",
+      "San Francisco",
+      "Remote; New York; San Francisco",
+      "San Francisco; New York; Remote",
+      "San Francisco; Remote",
+      "APJ",
+      "Singapore; Australia",
+      "New York",
+      "New York; San Francisco",
+      "New York; Remote",
+      "Remote; New York; Remote",
+      "Remote; Australia",
+      "Remote",
+      "Singapore",
+      "Australia"
+    ],
+    "job_source": {
+      "source": "ashby",
+      "board": "cursor"
+    },
+    "coverage": "Public board snapshot imported; use dataset_status for current counts and freshness.",
+    "evidence": [
+      {
+        "kind": "engineering",
+        "url": "https://jobs.ashbyhq.com/cursor/0ec39ed7-a5dc-4551-bb26-b7f4f9fb4a74",
+        "checked_at": "2026-09-27T09:24:10.173637+00:00",
+        "claim": "Employer posting: Software Engineer, Growth  (San Francisco; New York). Description is employer-reported work, not independently verified team quality.",
+        "excerpt": "Our mission is to automate coding. The first step in our journey is to build the best tool for professional programmers, using a combination of inventive research, design, and engineering. Our organization is very flat, and our team is small and talent dense. We particularly like people who are truth-seeking, passionate, and creative. We enjoy spirited debate, crazy ideas, and shipping code."
+      },
+      {
+        "kind": "engineering",
+        "url": "https://jobs.ashbyhq.com/cursor/6d576a09-f30d-4e5e-bb58-5d7ef56cb511",
+        "checked_at": "2026-09-27T09:24:10.173637+00:00",
+        "claim": "Employer posting: Software Engineer, Infrastructure (San Francisco; New York). Description is employer-reported work, not independently verified team quality.",
+        "excerpt": "Our mission is to automate coding. The first step in our journey is to build the best tool for professional programmers, using a combination of inventive research, design, and engineering. Our organization is very flat, and our team is small and talent dense. We particularly like people who are truth-seeking, passionate, and creative. We enjoy spirited debate, crazy ideas, and shipping code."
+      }
+    ],
+    "unknowns": [
+      "Actual mentor access, review cadence and advancement prospects",
+      "Current financial runway and team-specific resources",
+      "Role-specific eligibility and sponsorship; inspect each full posting",
+      "Funding evidence not yet collected"
+    ]
+  },
+  {
+    "id": "databricks",
+    "name": "Databricks",
+    "category": "target-employer",
+    "careers_url": "https://job-boards.greenhouse.io/databricks",
+    "specialties": [
+      "data infrastructure",
+      "distributed systems",
+      "AI"
+    ],
+    "regions": [
+      "Tokyo, Japan",
+      "Bengaluru, India; Mumbai, India",
+      "Singapore",
+      "Austin, Texas; Denver, Colorado; Portland, Oregon; Scottsdale, Arizona, United States",
+      "Remote - India",
+      "Seoul, South Korea",
+      "United States",
+      "Maryland; Virginia; Washington, D.C.",
+      "London, United Kingdom",
+      "Amsterdam, Netherlands",
+      "Stockholm, Sweden",
+      "Atlanta, Georgia; Boston, Massachusetts; Chicago, Illinois; Dallas, Texas; New York City, New York; San Francisco, California; Seattle, Washington",
+      "Seoul, South Korea; Singapore; Tokyo, Japan",
+      "Belgrade, Serbia",
+      "Bellevue, Washington; Mountain View, California; San Francisco, California",
+      "Chicago, Illinois"
+    ],
+    "job_source": {
+      "source": "greenhouse",
+      "board": "databricks"
+    },
+    "coverage": "Public board snapshot imported; use dataset_status for current counts and freshness.",
+    "evidence": [
+      {
+        "kind": "engineering",
+        "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8099751002",
+        "checked_at": "2026-09-27T09:24:10.173637+00:00",
+        "claim": "Employer posting: AI Engineer - FDE (Forward Deployed Engineer) (Remote - India). Description is employer-reported work, not independently verified team quality.",
+        "excerpt": "The AI Forward Deployed Engineering (AI FDE) team is a highly specialized customer-facing AI team at Databricks. We deliver professional services engagements to help our customers build and productionize first-of-its-kind AI applications. We work cross-functionally to shape long-term strategic priorities and initiatives alongside engineering, product, and developer relations, as well as support in"
+      },
+      {
+        "kind": "engineering",
+        "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8574655002",
+        "checked_at": "2026-09-27T09:24:10.173637+00:00",
+        "claim": "Employer posting: AI Engineer - FDE (Forward Deployed Engineer) (Seoul, South Korea). Description is employer-reported work, not independently verified team quality.",
+        "excerpt": "The AI Forward Deployed Engineering (AI FDE) team is a highly specialized customer-facing AI team at Databricks. We deliver professional services engagements to help our customers build and productionize first-of-its-kind AI applications. We work cross-functionally to shape long-term strategic priorities and initiatives alongside engineering, product, and developer relations, as well as support in"
+      }
+    ],
+    "unknowns": [
+      "Actual mentor access, review cadence and advancement prospects",
+      "Current financial runway and team-specific resources",
+      "Role-specific eligibility and sponsorship; inspect each full posting",
+      "Funding evidence not yet collected"
+    ]
+  },
+  {
+    "id": "datadog",
+    "name": "Datadog",
+    "category": "target-employer",
+    "careers_url": "https://job-boards.greenhouse.io/datadog",
+    "specialties": [
+      "observability",
+      "distributed systems"
+    ],
+    "regions": [
+      "Paris, France",
+      "New York, New York, USA; Pittsburgh, Pennsylvania, USA",
+      "Seoul, South Korea",
+      "Sydney, Australia",
+      "Bangalore, India",
+      "Denver, Colorado, USA",
+      "Tokyo, Japan",
+      "Amsterdam, The Netherlands",
+      "Boston, Massachusetts, USA",
+      "Amsterdam, The Netherlands; Dublin, Ireland",
+      "Singapore, Singapore",
+      "Dublin, Ireland",
+      "Sao Paulo, Brazil",
+      "New York, New York, USA",
+      "San Francisco, California, USA",
+      "Denver, Colorado, USA; San Francisco, California, USA"
+    ],
+    "job_source": {
+      "source": "greenhouse",
+      "board": "datadog"
+    },
+    "coverage": "Public board snapshot imported; use dataset_status for current counts and freshness.",
+    "evidence": [
+      {
+        "kind": "engineering",
+        "url": "https://careers.datadoghq.com/detail/7194969/?gh_jid=7194969",
+        "checked_at": "2026-09-27T09:24:10.173637+00:00",
+        "claim": "Employer posting: AI Research Engineer - Datadog AI Research (DAIR) (Paris, France). Description is employer-reported work, not independently verified team quality.",
+        "excerpt": "As a Research Engineer on our team, you will partner with Research Scientists to turn research ideas into working systems, building the data, tooling, and infrastructure that enable rapid iteration, trustworthy evaluation, and a smooth path from prototype to production."
+      },
+      {
+        "kind": "engineering",
+        "url": "https://careers.datadoghq.com/detail/6572669/?gh_jid=6572669",
+        "checked_at": "2026-09-27T09:24:10.173637+00:00",
+        "claim": "Employer posting: AI Research Scientist - Datadog AI Research (DAIR) (New York, New York, USA; Pittsburgh, Pennsylvania, USA). Description is employer-reported work, not independently verified team quality.",
+        "excerpt": "As a Research Scientist on our team, you will partner with Research Engineers, working on fundamental research problems and collaborating with Datadog's product and engineering teams to translate research advances into products."
+      }
+    ],
+    "unknowns": [
+      "Actual mentor access, review cadence and advancement prospects",
+      "Current financial runway and team-specific resources",
+      "Role-specific eligibility and sponsorship; inspect each full posting",
+      "Funding evidence not yet collected"
+    ]
+  },
+  {
+    "id": "elevenlabs",
+    "name": "ElevenLabs",
+    "category": "target-employer",
+    "careers_url": "https://jobs.ashbyhq.com/elevenlabs",
+    "specialties": [
+      "AI",
+      "speech"
+    ],
+    "regions": [
+      "India",
+      "United States; New York; San Francisco",
+      "San Francisco; United States; New York",
+      "United Kingdom; Dublin; United States; New York; Sofia; Germany; Portugal; Poland; Poland; Madrid; Boston; Amsterdam; Bulgaria",
+      "United Kingdom; Ireland; Dublin; New York; Sofia; Los Angeles; Portugal; Poland; Sweden; London; Netherlands; Boston; Amsterdam; Washington, D.C.; Bulgaria",
+      "United Kingdom; Dublin; Spain; United States; New York; Sofia; Germany; Poland; Boston; Amsterdam; Bulgaria",
+      "Poland; United States; Germany; United Kingdom; Bulgaria",
+      "United States; Dublin; Poland; United Kingdom",
+      "UAE ",
+      "San Francisco; United States",
+      "Singapore",
+      "Europe; Spain; Sofia; Germany; Belgium; Denmark; Sweden; Italy; Poland; United Kingdom; Netherlands; France; UAE ",
+      "United States; New York; Los Angeles; Boston; San Francisco; Washington, D.C.",
+      "Germany; Tokyo; Spain; Korea; United States; Japan; Brazil; Denmark; Portugal; Mexico; Sweden; Poland; United Kingdom; Netherlands; France; India; Bulgaria",
+      "United Kingdom; Spain; Germany; Brazil; Portugal; Mexico; France; India",
+      "United States; Dublin; Sofia; Germany; Portugal; Poland; Sweden; Italy; Poland; United Kingdom; Amsterdam; Canada; Berlin"
+    ],
+    "job_source": {
+      "source": "ashby",
+      "board": "elevenlabs"
+    },
+    "coverage": "Public board snapshot imported; use dataset_status for current counts and freshness.",
+    "evidence": [
+      {
+        "kind": "engineering",
+        "url": "https://jobs.ashbyhq.com/elevenlabs/275f43d0-b62d-401d-830c-7c1ac0e688aa",
+        "checked_at": "2026-09-27T09:24:10.173637+00:00",
+        "claim": "Employer posting: Enterprise Solutions Engineer - North America (United States; New York; San Francisco). Description is employer-reported work, not independently verified team quality.",
+        "excerpt": "- ElevenAPI gives developers access to our leading AI audio foundational models."
+      },
+      {
+        "kind": "engineering",
+        "url": "https://jobs.ashbyhq.com/elevenlabs/c7d59014-b918-4c15-ae33-79f5c9f2cf9f",
+        "checked_at": "2026-09-27T09:24:10.173637+00:00",
+        "claim": "Employer posting: Full-Stack Engineer (Back-End Leaning) (United Kingdom; Dublin; United States; New York; Sofia; Germany; Portugal; Poland; Poland; Madrid; Boston; Amsterdam; Bulgaria). Description is employer-reported work, not independently verified team quality.",
+        "excerpt": "- ElevenAPI gives developers access to our leading AI audio foundational models."
+      },
+      {
+        "kind": "funding",
+        "url": "https://jobs.ashbyhq.com/elevenlabs/275f43d0-b62d-401d-830c-7c1ac0e688aa",
+        "checked_at": "2026-09-27T09:24:10.173637+00:00",
+        "claim": "Employer-reported backing/funding in a job posting. Round date and current runway are not established by this excerpt.",
+        "excerpt": "We launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. Our investors are some of the world's most prominent, including Andreessen Horowitz, ICONIQ Growth and Sequoia. We've raised $781M in funding and our last valuation was $11B - multiples of 11, always."
+      }
+    ],
+    "unknowns": [
+      "Actual mentor access, review cadence and advancement prospects",
+      "Current financial runway and team-specific resources",
+      "Role-specific eligibility and sponsorship; inspect each full posting"
+    ]
+  },
+  {
+    "id": "federato",
+    "name": "Federato",
+    "category": "target-employer",
+    "careers_url": "https://job-boards.greenhouse.io/federato",
+    "specialties": [
+      "AI",
+      "insurance",
+      "full stack"
+    ],
+    "regions": [
+      "Remote - AUS",
+      "Remote - UK",
+      "Remote"
+    ],
+    "job_source": {
+      "source": "greenhouse",
+      "board": "federato"
+    },
+    "coverage": "Public board snapshot imported; use dataset_status for current counts and freshness.",
+    "evidence": [
+      {
+        "kind": "engineering",
+        "url": "https://job-boards.greenhouse.io/federato/jobs/5212552008",
+        "checked_at": "2026-09-27T09:24:10.173637+00:00",
+        "claim": "Employer posting: Customer Engineer (Pre-Sales) ANZ (Remote - AUS). Description is employer-reported work, not independently verified team quality.",
+        "excerpt": "You'll get to work on complex problems with one of the most advanced AI teams you'll find anywhere. If you're the person we need, you know that AI bolted onto legacy systems is too weak to matter. That's why we built our platform to be AI-native from day one. That's why you can do here what you can never do at a legacy software company. move fast and prove it, not theorize it. We think from first "
+      },
+      {
+        "kind": "engineering",
+        "url": "https://job-boards.greenhouse.io/federato/jobs/5375752008",
+        "checked_at": "2026-09-27T09:24:10.173637+00:00",
+        "claim": "Employer posting: Senior Forward Deployed Engineer (Remote). Description is employer-reported work, not independently verified team quality.",
+        "excerpt": "You'll get to work on complex problems with one of the most advanced AI teams you'll find anywhere. If you're the person we need, you know that AI bolted onto legacy systems is too weak to matter. That's why we built our platform to be AI-native from day one. That's why you can do here what you can never do at a legacy software company. move fast and prove it, not theorize it. We think from first "
+      },
+      {
+        "kind": "funding",
+        "url": "https://job-boards.greenhouse.io/federato/jobs/5212552008",
+        "checked_at": "2026-09-27T09:24:10.173637+00:00",
+        "claim": "Employer-reported backing/funding in a job posting. Round date and current runway are not established by this excerpt.",
+        "excerpt": "Federato is an AI-native platform that’s bringing agentic AI to the full policy lifecycle. We’re aggressively transforming how insurance work gets done, and the world is paying attention: we've raised $180 million, including a $100 million Series D from Goldman Sachs. We have powerful product-market fit, and we're growing fast globally."
+      },
+      {
+        "kind": "funding",
+        "url": "https://www.federato.ai/articles/federato-raises-100-million-series-d-led-by-goldman-sachs",
+        "checked_at": "2026-09-27T09:24:10.173637+00:00",
+        "claim": "2025-11-18 announcement: $100M Series D led by Goldman Sachs Alternatives; returning investors include Emergence Capital, Caffeinated Capital, StepStone Group and Pear VC. Historical announcement, not current runway.",
+        "excerpt": "raised $100 million in Series D funding"
+      }
+    ],
+    "unknowns": [
+      "Actual mentor access, review cadence and advancement prospects",
+      "Current financial runway and team-specific resources",
+      "Role-specific eligibility and sponsorship; inspect each full posting"
+    ]
+  },
+  {
+    "id": "figma",
+    "name": "Figma",
+    "category": "target-employer",
+    "careers_url": "https://job-boards.greenhouse.io/figma",
+    "specialties": [
+      "product engineering",
+      "graphics",
+      "full stack"
+    ],
+    "regions": [
+      "San Francisco, CA • New York, NY • United States",
+      "Bengaluru, India",
+      "Berlin, Germany",
+      "Singapore",
+      "Paris, France",
+      "Sydney, Australia • Melbourne, Australia",
+      "Tokyo, Japan",
+      "Washington, DC",
+      "London, England",
+      "Sydney, Australia",
+      "San Francisco, CA • New York, NY",
+      "San Francisco, CA",
+      "São Paulo, Brazil",
+      "New York, NY",
+      "New York, NY • United States",
+      "Tel Aviv, Israel"
+    ],
+    "job_source": {
+      "source": "greenhouse",
+      "board": "figma"
+    },
+    "coverage": "Public board snapshot imported; use dataset_status for current counts and freshness.",
+    "evidence": [
+      {
+        "kind": "engineering",
+        "url": "https://boards.greenhouse.io/figma/jobs/6178851004?gh_jid=6178851004",
+        "checked_at": "2026-09-27T09:24:10.173637+00:00",
+        "claim": "Employer posting: Data Engineer Intern (2027) (San Francisco, CA • New York, NY). Description is employer-reported work, not independently verified team quality.",
+        "excerpt": "Figma is growing our team of passionate creatives and builders on a mission to make design accessible to all. Figma’s platform helps teams bring ideas to life—whether you're brainstorming, creating a prototype, translating designs into code, or iterating with AI. From idea to product, Figma empowers teams to streamline workflows, move faster, and work together in real time from anywhere in the wor"
+      },
+      {
+        "kind": "engineering",
+        "url": "https://boards.greenhouse.io/figma/jobs/6201407004?gh_jid=6201407004",
+        "checked_at": "2026-09-27T09:24:10.173637+00:00",
+        "claim": "Employer posting: Data Platform Engineer (San Francisco, CA • New York, NY • United States). Description is employer-reported work, not independently verified team quality.",
+        "excerpt": "Figma is growing our team of passionate creatives and builders on a mission to make design accessible to all. Figma’s platform helps teams bring ideas to life—whether you're brainstorming, creating a prototype, translating designs into code, or iterating with AI. From idea to product, Figma empowers teams to streamline workflows, move faster, and work together in real time from anywhere in the wor"
+      }
+    ],
+    "unknowns": [
+      "Actual mentor access, review cadence and advancement prospects",
+      "Current financial runway and team-specific resources",
+      "Role-specific eligibility and sponsorship; inspect each full posting",
+      "Funding evidence not yet collected"
+    ]
+  },
+  {
+    "id": "linear",
+    "name": "Linear",
+    "category": "target-employer",
+    "careers_url": "https://jobs.ashbyhq.com/linear",
+    "specialties": [
+      "developer tools",
+      "full stack",
+      "TypeScript"
+    ],
+    "regions": [
+      "Europe",
+      "North America",
+      "North America; Europe",
+      "London"
+    ],
+    "job_source": {
+      "source": "ashby",
+      "board": "linear"
+    },
+    "coverage": "Public board snapshot imported; use dataset_status for current counts and freshness.",
+    "evidence": [
+      {
+        "kind": "engineering",
+        "url": "https://jobs.ashbyhq.com/linear/d3bc1ced-3ce4-4086-a050-555055dbb1ff",
+        "checked_at": "2026-09-27T09:24:10.173637+00:00",
+        "claim": "Employer posting: Senior / Staff Fullstack Engineer (Europe). Description is employer-reported work, not independently verified team quality.",
+        "excerpt": "At Linear, we're building the product development system for teams and agents. AI is fundamentally changing how software gets built, and we’re shaping the tools this new era requires."
+      },
+      {
+        "kind": "engineering",
+        "url": "https://jobs.ashbyhq.com/linear/cd5ae036-0223-427a-b038-ba16ef9dcb32",
+        "checked_at": "2026-09-27T09:24:10.173637+00:00",
+        "claim": "Employer posting: Senior / Staff Fullstack Engineer (North America). Description is employer-reported work, not independently verified team quality.",
+        "excerpt": "At Linear, we're building the product development system for teams and agents. AI is fundamentally changing how software gets built, and we’re shaping the tools this new era requires."
+      }
+    ],
+    "unknowns": [
+      "Actual mentor access, review cadence and advancement prospects",
+      "Current financial runway and team-specific resources",
+      "Role-specific eligibility and sponsorship; inspect each full posting",
+      "Funding evidence not yet collected"
+    ]
+  },
+  {
+    "id": "macro",
+    "name": "Macro",
+    "category": "target-employer",
+    "careers_url": "https://macro.com/jobs/",
+    "specialties": [
+      "Rust",
+      "TypeScript",
+      "product engineering"
+    ],
+    "regions": [
+      "New York City",
+      "Toronto"
+    ],
+    "job_source": null,
+    "coverage": "Discovery only; no supported nonempty job feed imported. Read official careers page.",
+    "evidence": [
+      {
+        "kind": "engineering",
+        "url": "https://macro.com/jobs/",
+        "checked_at": "2026-09-27T09:24:10.173637+00:00",
+        "claim": "Official hiring page describes software work using Rust, TypeScript and SolidJS in NYC/Toronto.",
+        "excerpt": "We are a small, engineering-led team in NYC and Toronto"
+      },
+      {
+        "kind": "funding",
+        "url": "https://macro.com/pricing/",
+        "checked_at": "2026-09-27T09:24:10.173637+00:00",
+        "claim": "Company FAQ reports approximately $30M led by a16z, with BoxGroup and 3kVC participating. Announcement date and runway unknown.",
+        "excerpt": "about $30M led by a16z, with participation from BoxGroup, 3kVC, and others."
+      }
+    ],
+    "unknowns": [
+      "Actual mentor access, review cadence and advancement prospects",
+      "Current financial runway and team-specific resources",
+      "Role-specific eligibility and sponsorship; inspect each full posting"
+    ]
+  },
+  {
+    "id": "mercor",
+    "name": "Mercor",
+    "category": "target-employer",
+    "careers_url": "https://jobs.ashbyhq.com/mercor",
+    "specialties": [
+      "AI",
+      "infrastructure"
+    ],
+    "regions": [
+      "San Francisco",
+      "San Francisco; New York City",
+      "New York City",
+      "San Francisco or NYC",
+      "London",
+      "Mercor HQ, 181 Fremont Street",
+      "Mexico | Mexico City",
+      "San Francisco; Mexico | Mexico City; New York City; London"
+    ],
+    "job_source": {
+      "source": "ashby",
+      "board": "mercor"
+    },
+    "coverage": "Public board snapshot imported; use dataset_status for current counts and freshness.",
+    "evidence": [
+      {
+        "kind": "engineering",
+        "url": "https://jobs.ashbyhq.com/mercor/296c4031-5e98-4772-95f5-a9eb5bd7746d",
+        "checked_at": "2026-09-27T09:24:10.173637+00:00",
+        "claim": "Employer posting: Infrastructure Software Engineer  (San Francisco; New York City). Description is employer-reported work, not independently verified team quality.",
+        "excerpt": "Mercor's mission is to organize human intelligence to power the AI economy. We're a leading AI data company, building the layer between human expertise and frontier models. Millions of domain experts on the platform are paid over $4 million per day to train frontier AI models. Mercor's APEX benchmark family measures AI's real-world impact on professional work. Mercor Enterprise brings this same in"
+      },
+      {
+        "kind": "engineering",
+        "url": "https://jobs.ashbyhq.com/mercor/4f4fc8c3-4056-47bb-9e00-1db6e5dd958f",
+        "checked_at": "2026-09-27T09:24:10.173637+00:00",
+        "claim": "Employer posting: Software Engineer, Agents (San Francisco). Description is employer-reported work, not independently verified team quality.",
+        "excerpt": "Mercor's mission is to organize human intelligence to power the AI economy. We're a leading AI data company, building the layer between human expertise and frontier models. Millions of domain experts on the platform are paid over $4 million per day to train frontier AI models. Mercor's APEX benchmark family measures AI's real-world impact on professional work. Mercor Enterprise brings this same in"
+      }
+    ],
+    "unknowns": [
+      "Actual mentor access, review cadence and advancement prospects",
+      "Current financial runway and team-specific resources",
+      "Role-specific eligibility and sponsorship; inspect each full posting",
+      "Funding evidence not yet collected"
+    ]
+  },
+  {
+    "id": "mistral-ai",
+    "name": "Mistral AI",
+    "category": "target-employer",
+    "careers_url": "https://mistral.ai/careers/",
+    "specialties": [
+      "AI",
+      "machine learning"
+    ],
+    "regions": [],
+    "job_source": null,
+    "coverage": "Discovery only; no supported nonempty job feed imported. Read official careers page.",
+    "evidence": [
+      {
+        "kind": "team",
+        "url": "https://mistral.ai/careers/",
+        "checked_at": "2026-09-27T09:24:10.173637+00:00",
+        "claim": "Official careers page separates Science, Product and Engineering, GTM/Solutions, and Corporate teams. Its linked Ashby board uses a dotted slug unsupported by the current collector.",
+        "excerpt": "Science; Product and Engineering"
+      }
+    ],
+    "unknowns": [
+      "Actual mentor access, review cadence and advancement prospects",
+      "Current financial runway and team-specific resources",
+      "Role-specific eligibility and sponsorship; inspect each full posting",
+      "Funding evidence not yet collected"
+    ]
+  },
+  {
+    "id": "modal",
+    "name": "Modal",
+    "category": "target-employer",
+    "careers_url": "https://jobs.ashbyhq.com/modal",
+    "specialties": [
+      "GPU",
+      "infrastructure",
+      "developer tools"
+    ],
+    "regions": [
+      "New York; San Francisco",
+      "New York",
+      "New York; Stockholm",
+      "New York; San Francisco; London or Stockholm",
+      "San Francisco; London",
+      "New York; San Francisco; London",
+      "San Francisco",
+      "Stockholm",
+      "San Francisco; Stockholm; New York; London",
+      "San Francisco; New York",
+      "London",
+      "New York; Stockholm; San Francisco",
+      "San Francisco; Stockholm; New York"
+    ],
+    "job_source": {
+      "source": "ashby",
+      "board": "modal"
+    },
+    "coverage": "Public board snapshot imported; use dataset_status for current counts and freshness.",
+    "evidence": [
+      {
+        "kind": "engineering",
+        "url": "https://jobs.ashbyhq.com/modal/9fadb51f-ce11-41b1-84d5-470e66cc8ee9",
+        "checked_at": "2026-09-27T09:24:10.173637+00:00",
+        "claim": "Employer posting: Forward Deployed Engineer - ML (New York; San Francisco). Description is employer-reported work, not independently verified team quality.",
+        "excerpt": "AI needs a new infrastructure layer. We're building it at Modal."
+      },
+      {
+        "kind": "engineering",
+        "url": "https://jobs.ashbyhq.com/modal/44b57790-528e-4f97-8613-03564316be8a",
+        "checked_at": "2026-09-27T09:24:10.173637+00:00",
+        "claim": "Employer posting: Customer Engineer (New York; San Francisco; London or Stockholm). Description is employer-reported work, not independently verified team quality.",
+        "excerpt": "AI needs a new infrastructure layer. We're building it at Modal."
+      },
+      {
+        "kind": "funding",
+        "url": "https://jobs.ashbyhq.com/modal/9fadb51f-ce11-41b1-84d5-470e66cc8ee9",
+        "checked_at": "2026-09-27T09:24:10.173637+00:00",
+        "claim": "Employer-reported backing/funding in a job posting. Round date and current runway are not established by this excerpt.",
+        "excerpt": "We recently raised a $355M Series C https://modal.com/blog/modal-series-c at a $4.65B valuation, led by General Catalyst and Redpoint Ventures. We've crossed $300M+ ARR and grown fivefold since September."
+      }
+    ],
+    "unknowns": [
+      "Actual mentor access, review cadence and advancement prospects",
+      "Current financial runway and team-specific resources",
+      "Role-specific eligibility and sponsorship; inspect each full posting"
+    ]
+  },
+  {
+    "id": "notion",
+    "name": "Notion",
+    "category": "target-employer",
+    "careers_url": "https://jobs.ashbyhq.com/notion",
+    "specialties": [
+      "product engineering",
+      "AI"
+    ],
+    "regions": [
+      "San Francisco, California; New York, New York",
+      "New York, New York",
+      "San Francisco, California",
+      "Tokyo, Japan ",
+      "New York, New York; San Francisco, California",
+      "Hyderabad, India",
+      "Munich, Germany",
+      "Dublin, Ireland",
+      "Seoul, South Korea",
+      "Sydney, Australia",
+      "London, United Kingdom",
+      "Paris, France"
+    ],
+    "job_source": {
+      "source": "ashby",
+      "board": "notion"
+    },
+    "coverage": "Public board snapshot imported; use dataset_status for current counts and freshness.",
+    "evidence": [
+      {
+        "kind": "engineering",
+        "url": "https://jobs.ashbyhq.com/notion/1fc309c8-da20-4ff2-84c7-8b863ece2b0a",
+        "checked_at": "2026-09-27T09:24:10.173637+00:00",
+        "claim": "Employer posting: Software Engineer, Developer Platform (San Francisco, California; New York, New York). Description is employer-reported work, not independently verified team quality.",
+        "excerpt": "Notion is the collaborative AI workspace where teams and agents think together https://www.youtube.com/watch?v=vkpYpWfEK5s. We're building one place where your knowledge, projects, meetings, and AI tools live side by side, so work is faster, clearer, and less fragmented. Millions of individuals, small teams, and large companies run their work on Notion."
+      },
+      {
+        "kind": "engineering",
+        "url": "https://jobs.ashbyhq.com/notion/10437426-14c8-4c45-8075-67959ce80393",
+        "checked_at": "2026-09-27T09:24:10.173637+00:00",
+        "claim": "Employer posting: Forward Deployed Engineer, GTM, AMER (San Francisco, California; New York, New York). Description is employer-reported work, not independently verified team quality.",
+        "excerpt": "Notion is the collaborative AI workspace where teams and agents think together https://www.youtube.com/watch?v=vkpYpWfEK5s. We're building one place where your knowledge, projects, meetings, and AI tools live side by side, so work is faster, clearer, and less fragmented. Millions of individuals, small teams, and large companies run their work on Notion."
+      }
+    ],
+    "unknowns": [
+      "Actual mentor access, review cadence and advancement prospects",
+      "Current financial runway and team-specific resources",
+      "Role-specific eligibility and sponsorship; inspect each full posting",
+      "Funding evidence not yet collected"
+    ]
+  },
+  {
+    "id": "perplexity",
+    "name": "Perplexity",
+    "category": "target-employer",
+    "careers_url": "https://jobs.ashbyhq.com/perplexity",
+    "specialties": [
+      "AI",
+      "search",
+      "full stack"
+    ],
+    "regions": [
+      "San Francisco; New York City",
+      "San Francisco; Palo Alto; New York City",
+      "San Francisco; Palo Alto",
+      "Belgrade; London; Berlin",
+      "San Francisco; Palo Alto; London; Berlin",
+      "San Francisco; Austin; New York City",
+      "San Francisco",
+      "London",
+      "San Francisco; Remote (United States); London; Belgrade; New York City",
+      "Belgrade",
+      "Berlin",
+      "San Francisco; Palo Alto; Seattle; New York City",
+      "San Francisco; Seattle; New York City",
+      "San Francisco; Palo Alto; London; Berlin; Belgrade; New York City",
+      "New York City; Remote (United States); San Francisco",
+      "San Francisco; Remote (United States); Belgrade; New York City"
+    ],
+    "job_source": {
+      "source": "ashby",
+      "board": "perplexity"
+    },
+    "coverage": "Public board snapshot imported; use dataset_status for current counts and freshness.",
+    "evidence": [
+      {
+        "kind": "engineering",
+        "url": "https://jobs.ashbyhq.com/perplexity/043d6a58-87a1-4e3c-bf47-4dc351b94cf4",
+        "checked_at": "2026-09-27T09:24:10.173637+00:00",
+        "claim": "Employer posting: Member of Technical Staff (Software Engineer, Monetization) (San Francisco; New York City). Description is employer-reported work, not independently verified team quality.",
+        "excerpt": "As a monetization engineer at Perplexity, you'll own the abstractions that let product teams ship new SKUs, run pricing experiments, and convert users into paying customers, without needing to understand billing internals. The usage-based billing system this team owns is foundational to Perplexity Computer and our agentic products: metering every agent action in real time, enforcing credit budgets"
+      },
+      {
+        "kind": "engineering",
+        "url": "https://jobs.ashbyhq.com/perplexity/8a976851-9bef-4b07-8d36-567fa9540aef",
+        "checked_at": "2026-09-27T09:24:10.173637+00:00",
+        "claim": "Employer posting: Member of Technical Staff (AI Inference Engineer) (San Francisco; Palo Alto; New York City). Description is employer-reported work, not independently verified team quality.",
+        "excerpt": "We build and run the inference engine behind every Perplexity query and deploy dozens of model architectures at scale with tight latency and cost budgets. Our stack is Rust, Python, CUDA, and CuTe DSL - and we need another engineer to join us."
+      }
+    ],
+    "unknowns": [
+      "Actual mentor access, review cadence and advancement prospects",
+      "Current financial runway and team-specific resources",
+      "Role-specific eligibility and sponsorship; inspect each full posting",
+      "Funding evidence not yet collected"
+    ]
+  },
+  {
+    "id": "ramp",
+    "name": "Ramp",
+    "category": "target-employer",
+    "careers_url": "https://jobs.ashbyhq.com/ramp",
+    "specialties": [
+      "fintech",
+      "full stack",
+      "infrastructure"
+    ],
+    "regions": [
+      "New York, NY (HQ); Remote (Canada); Remote (US); Miami, FL",
+      "New York, NY (HQ); Remote (Canada); San Francisco, CA; Remote (US)",
+      "New York, NY (HQ); Remote (Canada); San Francisco, CA; Remote (US); Miami, FL",
+      "New York, NY (HQ)",
+      "San Francisco, CA",
+      "New York, NY (HQ); San Francisco, CA",
+      "New York, NY (HQ); San Francisco, CA; Denver, CO; Miami, FL",
+      "New York, NY (HQ); San Francisco, CA; Remote (US)",
+      "New York, NY (HQ); San Francisco, CA; Remote (US); Miami, FL",
+      "New York, NY (HQ); Remote (US)",
+      "Toronto, ON",
+      "New York, NY (HQ); San Francisco, CA; Remote (US); Denver, CO; Miami, FL",
+      "San Francisco, CA; Remote (US); New York, NY (HQ)",
+      "Remote (US); Remote (Canada); San Francisco, CA; New York, NY (HQ)",
+      "Remote (US); San Francisco, CA; New York, NY (HQ)",
+      "New York, NY (HQ); Remote (Canada); San Francisco, CA; Remote (US); Miami, FL; Washington, D.C."
+    ],
+    "job_source": {
+      "source": "ashby",
+      "board": "ramp"
+    },
+    "coverage": "Public board snapshot imported; use dataset_status for current counts and freshness.",
+    "evidence": [
+      {
+        "kind": "engineering",
+        "url": "https://jobs.ashbyhq.com/ramp/34413f8d-26bf-4bbc-8ade-eb309a0e2245",
+        "checked_at": "2026-09-27T09:24:10.173637+00:00",
+        "claim": "Employer posting:  Security Engineer, Cloud (New York, NY (HQ); Remote (Canada); Remote (US); Miami, FL). Description is employer-reported work, not independently verified team quality.",
+        "excerpt": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books."
+      },
+      {
+        "kind": "engineering",
+        "url": "https://jobs.ashbyhq.com/ramp/f564dcf9-9390-4a3f-896f-8047a5086040",
+        "checked_at": "2026-09-27T09:24:10.173637+00:00",
+        "claim": "Employer posting: Mobile Engineer, Android (New York, NY (HQ); Remote (Canada); San Francisco, CA; Remote (US)). Description is employer-reported work, not independently verified team quality.",
+        "excerpt": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books."
+      }
+    ],
+    "unknowns": [
+      "Actual mentor access, review cadence and advancement prospects",
+      "Current financial runway and team-specific resources",
+      "Role-specific eligibility and sponsorship; inspect each full posting",
+      "Funding evidence not yet collected"
+    ]
+  },
+  {
+    "id": "rilla",
+    "name": "Rilla",
+    "category": "target-employer",
+    "careers_url": "https://jobs.ashbyhq.com/rilla",
+    "specialties": [
+      "AI",
+      "speech",
+      "full stack"
+    ],
+    "regions": [
+      "New York City",
+      "London"
+    ],
+    "job_source": {
+      "source": "ashby",
+      "board": "rilla"
+    },
+    "coverage": "Public board snapshot imported; use dataset_status for current counts and freshness.",
+    "evidence": [
+      {
+        "kind": "engineering",
+        "url": "https://jobs.ashbyhq.com/rilla/6f4e6ca1-efe7-4f25-af69-59f78981ef70",
+        "checked_at": "2026-09-27T09:24:10.173637+00:00",
+        "claim": "Employer posting: Senior Software Engineer (New York City). Description is employer-reported work, not independently verified team quality.",
+        "excerpt": "We’re an in office team in NYC with builders who operate like high speed reinforcement learners. We obsess over our customers, move at a high velocity, are not afraid of failure, and look to maximize our real-world impact."
+      },
+      {
+        "kind": "engineering",
+        "url": "https://jobs.ashbyhq.com/rilla/a48fe94a-63a8-442b-9da5-25a3f36f0a94",
+        "checked_at": "2026-09-27T09:24:10.173637+00:00",
+        "claim": "Employer posting: Senior Software Engineer, Mobile (New York City). Description is employer-reported work, not independently verified team quality.",
+        "excerpt": "We’re an in office team in NYC with builders who operate like high speed reinforcement learners. We obsess over our customers, move at a high velocity, are not afraid of failure, and look to maximize our real-world impact."
+      },
+      {
+        "kind": "funding",
+        "url": "https://jobs.ashbyhq.com/rilla/6f4e6ca1-efe7-4f25-af69-59f78981ef70",
+        "checked_at": "2026-09-27T09:24:10.173637+00:00",
+        "claim": "Employer-reported backing/funding in a job posting. Round date and current runway are not established by this excerpt.",
+        "excerpt": "We are backed by Google Ventures, Bessemer Ventures, Crew Capital, and Broom Ventures, along with others."
+      }
+    ],
+    "unknowns": [
+      "Actual mentor access, review cadence and advancement prospects",
+      "Current financial runway and team-specific resources",
+      "Role-specific eligibility and sponsorship; inspect each full posting"
+    ]
+  },
+  {
+    "id": "runway-financial-planning",
+    "name": "Runway (Financial Planning)",
+    "category": "target-employer",
+    "careers_url": "https://jobs.ashbyhq.com/runway",
+    "specialties": [
+      "financial planning",
+      "full stack",
+      "platform engineering"
+    ],
+    "regions": [
+      "North America"
+    ],
+    "job_source": {
+      "source": "ashby",
+      "board": "runway"
+    },
+    "coverage": "Public board snapshot imported; use dataset_status for current counts and freshness.",
+    "evidence": [
+      {
+        "kind": "engineering",
+        "url": "https://jobs.ashbyhq.com/runway/950876a1-709e-49b7-93f3-6e130efdf6fa",
+        "checked_at": "2026-09-27T09:24:10.173637+00:00",
+        "claim": "Employer posting: ⚙️ Senior/Staff Platform Engineer (North America). Description is employer-reported work, not independently verified team quality.",
+        "excerpt": "Runway is a collaborative business planning platform designed to make business intuitively understandable for everyone."
+      },
+      {
+        "kind": "engineering",
+        "url": "https://jobs.ashbyhq.com/runway/6dc52fd2-0ec0-4d93-9c67-23ebe95c2c4b",
+        "checked_at": "2026-09-27T09:24:10.173637+00:00",
+        "claim": "Employer posting: ⚙️ Senior/Staff Product Engineer (North America). Description is employer-reported work, not independently verified team quality.",
+        "excerpt": "Runway is a collaborative business planning platform designed to make business intuitively understandable for everyone."
+      }
+    ],
+    "unknowns": [
+      "Actual mentor access, review cadence and advancement prospects",
+      "Current financial runway and team-specific resources",
+      "Role-specific eligibility and sponsorship; inspect each full posting",
+      "Funding evidence not yet collected",
+      "Separate company from Runway AI (runway.com); do not merge identities"
+    ]
+  },
+  {
+    "id": "scale-ai",
+    "name": "Scale AI",
+    "category": "target-employer",
+    "careers_url": "https://job-boards.greenhouse.io/scaleai",
+    "specialties": [
+      "AI",
+      "data infrastructure"
+    ],
+    "regions": [
+      "San Francisco, CA; New York, NY",
+      "San Francisco, CA",
+      "Doha, Qatar; London, UK",
+      "New York, NY",
+      "Washington, DC",
+      "Los Angeles, CA",
+      "Mexico City, MX",
+      "Riyadh, Saudi Arabia",
+      "Doha, Qatar ",
+      "Honolulu, HI",
+      "Colorado Springs, CO",
+      "Omaha, NE",
+      "London, UK",
+      "New York, NY; San Francisco, CA",
+      "Colorado Springs, CO; Omaha, NE; St. Louis, MO; Washington, DC",
+      "Austin, TX; Colorado Springs, CO; Omaha, NE; St. Louis, MO; Washington, DC"
+    ],
+    "job_source": {
+      "source": "greenhouse",
+      "board": "scaleai"
+    },
+    "coverage": "Public board snapshot imported; use dataset_status for current counts and freshness.",
+    "evidence": [
+      {
+        "kind": "engineering",
+        "url": "https://job-boards.greenhouse.io/scaleai/jobs/4413992005",
+        "checked_at": "2026-09-27T09:24:10.173637+00:00",
+        "claim": "Employer posting: Applied AI Engineer, Global Public Sector (Doha, Qatar; London, UK). Description is employer-reported work, not independently verified team quality.",
+        "excerpt": "Scale’s rapidly growing Global Public Sector team is focused on using AI to address critical challenges facing the public sector around the world. Our core work consists of:"
+      },
+      {
+        "kind": "engineering",
+        "url": "https://job-boards.greenhouse.io/scaleai/jobs/4720163005",
+        "checked_at": "2026-09-27T09:24:10.173637+00:00",
+        "claim": "Employer posting: Chief of Staff, Public Sector Engineering & Security  (Washington, DC). Description is employer-reported work, not independently verified team quality.",
+        "excerpt": "Act as an extension of the VP, Public Sector Engineering & Security by attending key meetings and calls on the VP’s behalf, supporting client development, external presentations, internal problem solving, and special projects"
+      }
+    ],
+    "unknowns": [
+      "Actual mentor access, review cadence and advancement prospects",
+      "Current financial runway and team-specific resources",
+      "Role-specific eligibility and sponsorship; inspect each full posting",
+      "Funding evidence not yet collected"
+    ]
+  },
+  {
+    "id": "stripe",
+    "name": "Stripe",
+    "category": "target-employer",
+    "careers_url": "https://job-boards.greenhouse.io/stripe",
+    "specialties": [
+      "payments",
+      "distributed systems",
+      "security"
+    ],
+    "regions": [
+      "Dublin",
+      "Seattle, San Francisco, New York City",
+      "Remote from the US",
+      "San Francisco, CA",
+      "New York",
+      "San Francisco",
+      "SF, NYC, SEA, CHI",
+      "LOCATION",
+      "Chicago",
+      "Singapore",
+      "Japan",
+      "Dublin or Berlin",
+      "Germany ",
+      "US-Remote-CA, US-San Francisco, US-Seattle, US-New York",
+      "US-San Francisco, US-Seattle, US-West Coast (Remote) ",
+      "Israel "
+    ],
+    "job_source": {
+      "source": "greenhouse",
+      "board": "stripe"
+    },
+    "coverage": "Public board snapshot imported; use dataset_status for current counts and freshness.",
+    "evidence": [
+      {
+        "kind": "engineering",
+        "url": "https://stripe.com/jobs/search?gh_jid=8172503",
+        "checked_at": "2026-09-27T09:24:10.173637+00:00",
+        "claim": "Employer posting: Abuse Research Engineer (Remote from the US). Description is employer-reported work, not independently verified team quality.",
+        "excerpt": "About the team"
+      },
+      {
+        "kind": "engineering",
+        "url": "https://stripe.com/jobs/search?gh_jid=8044460",
+        "checked_at": "2026-09-27T09:24:10.173637+00:00",
+        "claim": "Employer posting: AI Engineer (Chicago). Description is employer-reported work, not independently verified team quality.",
+        "excerpt": "About The Team"
+      }
+    ],
+    "unknowns": [
+      "Actual mentor access, review cadence and advancement prospects",
+      "Current financial runway and team-specific resources",
+      "Role-specific eligibility and sponsorship; inspect each full posting",
+      "Funding evidence not yet collected"
+    ]
+  },
+  {
+    "id": "together-ai",
+    "name": "Together AI",
+    "category": "target-employer",
+    "careers_url": "https://job-boards.greenhouse.io/togetherai",
+    "specialties": [
+      "GPU",
+      "AI infrastructure"
+    ],
+    "regions": [
+      "Bangalore, India",
+      "San Francisco",
+      "Amsterdam ",
+      "Singapore",
+      "Amsterdam, Netherlands ",
+      "India ",
+      "Amsterdam",
+      "San Francisco ",
+      "San Francisco or NYC",
+      "San Francisco, Amsterdam",
+      "Remote",
+      "India",
+      "London",
+      "Bangalore India",
+      "London & Amsterdam",
+      "San Francisco, New York City"
+    ],
+    "job_source": {
+      "source": "greenhouse",
+      "board": "togetherai"
+    },
+    "coverage": "Public board snapshot imported; use dataset_status for current counts and freshness.",
+    "evidence": [
+      {
+        "kind": "engineering",
+        "url": "https://job-boards.greenhouse.io/togetherai/jobs/5180155007",
+        "checked_at": "2026-09-27T09:24:10.173637+00:00",
+        "claim": "Employer posting: AI Infrastructure System Engineer Bangalore  (Bangalore, India). Description is employer-reported work, not independently verified team quality.",
+        "excerpt": "At Together AI, you’ll build and operate one of the world’s largest GPU fleets used for frontier model training and inference. This isn’t a traditional infrastructure role—we’re looking for engineers who love building systems, automating everything, and solving problems at massive scale."
+      },
+      {
+        "kind": "engineering",
+        "url": "https://job-boards.greenhouse.io/togetherai/jobs/5138540007",
+        "checked_at": "2026-09-27T09:24:10.173637+00:00",
+        "claim": "Employer posting: AI Infrastructure Systems Engineer (San Francisco). Description is employer-reported work, not independently verified team quality.",
+        "excerpt": "At Together AI, you’ll build and operate one of the world’s largest GPU fleets used for frontier model training and inference. This isn’t a traditional infrastructure role—we’re looking for engineers who love building systems, automating everything, and solving problems at massive scale."
+      }
+    ],
+    "unknowns": [
+      "Actual mentor access, review cadence and advancement prospects",
+      "Current financial runway and team-specific resources",
+      "Role-specific eligibility and sponsorship; inspect each full posting",
+      "Funding evidence not yet collected"
+    ]
+  },
+  {
+    "id": "vercel",
+    "name": "Vercel",
+    "category": "target-employer",
+    "careers_url": "https://job-boards.greenhouse.io/vercel",
+    "specialties": [
+      "web infrastructure",
+      "developer tools"
+    ],
+    "regions": [
+      "Hybrid - London",
+      "Hybrid - Sydney",
+      "Hybrid - San Francisco, New York City, Austin",
+      "Remote - United States",
+      "Hybrid - London, Berlin",
+      "Hybrid - San Francisco",
+      "Hybrid - San Francisco, New York City",
+      "Hybrid - New York City",
+      "Hybrid - San Francisco, Austin",
+      "Hybrid - San Francisco, New York City, London, Berlin",
+      "Remote - Australia",
+      "Hybrid - San Francisco, New York City, London",
+      "Hybrid - India"
+    ],
+    "job_source": {
+      "source": "greenhouse",
+      "board": "vercel"
+    },
+    "coverage": "Public board snapshot imported; use dataset_status for current counts and freshness.",
+    "evidence": [
+      {
+        "kind": "engineering",
+        "url": "https://job-boards.greenhouse.io/vercel/jobs/6129441004",
+        "checked_at": "2026-09-27T09:24:10.173637+00:00",
+        "claim": "Employer posting: Design Engineer (Remote - United States). Description is employer-reported work, not independently verified team quality.",
+        "excerpt": "Vercel is the agentic infrastructure company, freeing people and agents to ship what's next. For more than a decade we've helped builders move from idea to production with speed, security, and exceptional developer experience."
+      },
+      {
+        "kind": "engineering",
+        "url": "https://job-boards.greenhouse.io/vercel/jobs/6122437004",
+        "checked_at": "2026-09-27T09:24:10.173637+00:00",
+        "claim": "Employer posting: DevRel Engineer, Agentic Infrastructure (Hybrid - San Francisco, New York City, Austin). Description is employer-reported work, not independently verified team quality.",
+        "excerpt": "Vercel is the agentic infrastructure company, freeing people and agents to ship what's next. For more than a decade we've helped builders move from idea to production with speed, security, and exceptional developer experience."
+      }
+    ],
+    "unknowns": [
+      "Actual mentor access, review cadence and advancement prospects",
+      "Current financial runway and team-specific resources",
+      "Role-specific eligibility and sponsorship; inspect each full posting",
+      "Funding evidence not yet collected"
+    ]
+  },
+  {
+    "id": "waabi",
+    "name": "Waabi",
+    "category": "target-employer",
+    "careers_url": "https://jobs.lever.co/waabi",
+    "specialties": [
+      "robotics",
+      "computer vision",
+      "AI"
+    ],
+    "regions": [
+      "Toronto, ON; Pittsburgh, PA; San Francisco, CA",
+      "Toronto, ON; San Francisco, CA; Pittsburgh, PA; Remote US & Canada",
+      "Dallas, TX",
+      "Pittsburgh, PA",
+      "Dallas, TX; Remote US & Canada",
+      "San Francisco, CA; Remote US",
+      "San Francisco, CA; Toronto, ON; Pittsburgh, PA; Remote US & Canada",
+      "Pittsburgh, PA; San Francisco, CA",
+      "San Francisco, CA; Pittsburgh, PA; Toronto, ON; Dallas, TX",
+      "Toronto, ON",
+      "San Francisco, CA; Toronto, ON; Pittsburgh, PA; Dallas, TX; Remote US",
+      "Phoenix, AZ; San Francisco, CA; Pittsburgh, PA",
+      "Remote US & Canada; Dallas, TX; Phoenix, AZ; Pittsburgh, PA; San Francisco, CA; Toronto, ON",
+      "Toronto, ON; San Francisco, CA; Remote US & Canada",
+      "Toronto, ON; San Francisco, CA; Remote US",
+      "Toronto, ON; San Francisco, CA; Pittsburgh, PA; Remote US"
+    ],
+    "job_source": {
+      "source": "lever",
+      "board": "waabi"
+    },
+    "coverage": "Public board snapshot imported; use dataset_status for current counts and freshness.",
+    "evidence": [
+      {
+        "kind": "engineering",
+        "url": "https://jobs.lever.co/waabi/62700386-b9db-4c78-aec3-5ef59cbe841e",
+        "checked_at": "2026-09-27T09:24:10.173637+00:00",
+        "claim": "Employer posting: 2026 Intern, PhD Research Scientist (Toronto, ON; Pittsburgh, PA; San Francisco, CA). Description is employer-reported work, not independently verified team quality.",
+        "excerpt": "Waabi, founded by AI visionary Raquel Urtasun, is the leader in Physical AI. With a world-class team, we're unlocking the next era of autonomous transportation with technology that's powering commercial autonomous trucks and robotaxis. Waabi is backed by and partners with world leaders in AI, automotive, logistics, and deep tech."
+      },
+      {
+        "kind": "engineering",
+        "url": "https://jobs.lever.co/waabi/84d01cde-e651-473f-a6ca-78e48d9b8401",
+        "checked_at": "2026-09-27T09:24:10.173637+00:00",
+        "claim": "Employer posting: Bringup Engineer (Pittsburgh, PA). Description is employer-reported work, not independently verified team quality.",
+        "excerpt": "Waabi, founded by AI visionary Raquel Urtasun, is the leader in Physical AI. With a world-class team, we're unlocking the next era of autonomous transportation with technology that's powering commercial autonomous trucks and robotaxis. Waabi is backed by and partners with world leaders in AI, automotive, logistics, and deep tech."
+      }
+    ],
+    "unknowns": [
+      "Actual mentor access, review cadence and advancement prospects",
+      "Current financial runway and team-specific resources",
+      "Role-specific eligibility and sponsorship; inspect each full posting",
+      "Specific funding evidence not yet collected"
+    ]
+  },
+  {
+    "id": "weride",
+    "name": "WeRide",
+    "category": "target-employer",
+    "careers_url": "https://jobs.lever.co/weride",
+    "specialties": [
+      "robotics",
+      "autonomous driving"
+    ],
+    "regions": [
+      "San Jose, CA",
+      "United Arab Emirates",
+      "Dubai",
+      "One-north",
+      "China"
+    ],
+    "job_source": {
+      "source": "lever",
+      "board": "weride"
+    },
+    "coverage": "Public board snapshot imported; use dataset_status for current counts and freshness.",
+    "evidence": [
+      {
+        "kind": "engineering",
+        "url": "https://jobs.lever.co/weride/82955de9-485d-4db0-8fd9-1c018489fc8d",
+        "checked_at": "2026-09-27T09:24:10.173637+00:00",
+        "claim": "Employer posting: Application Engineer (San Jose, CA). Description is employer-reported work, not independently verified team quality.",
+        "excerpt": "Established in 2017, WeRide (NASDAQ: WRD) is a leading global commercial-stage company that develops autonomous driving technologies from Level 2 to Level 4 and is the world's first publicly listed autonomous vehicle (AV) company. Its business footprint now spans more than 60 cities across 13 countries. Powered by the intelligent, versatile, and highly adaptable WeRide One platform, the company pr"
+      },
+      {
+        "kind": "engineering",
+        "url": "https://jobs.lever.co/weride/012c818d-4ad8-4096-80b0-386cdf79f8d5",
+        "checked_at": "2026-09-27T09:24:10.173637+00:00",
+        "claim": "Employer posting: Forward Deployed Engineer (One-north). Description is employer-reported work, not independently verified team quality.",
+        "excerpt": "WeRide is a leading, commercial-stage global company that develops autonomous driving technologies from Level 2 to Level 4. It offers an all-rounded product mix of Robotaxi, Robobus, Robosweeper, Robovan and Advanced Driving Solution to provide services. WeRide aims to develop safe and reliable driverless solutions to make our mobility and transportation safer, more affordable, and accessible."
+      }
+    ],
+    "unknowns": [
+      "Actual mentor access, review cadence and advancement prospects",
+      "Current financial runway and team-specific resources",
+      "Role-specific eligibility and sponsorship; inspect each full posting",
+      "Funding evidence not yet collected"
+    ]
+  },
+  {
+    "id": "runway-ai",
+    "name": "Runway AI",
+    "category": "target-employer",
+    "careers_url": "https://runway.com/careers",
+    "specialties": [
+      "AI",
+      "video",
+      "robotics",
+      "machine learning"
+    ],
+    "regions": [
+      "Remote",
+      "Remote; London",
+      "New York, NY",
+      "Remote; New York, NY",
+      "Remote; Seattle, WA; San Francisco, CA",
+      "Remote; Seattle, WA; New York, NY; San Francisco, CA",
+      "Japan",
+      "Remote; New York, NY; San Francisco, CA",
+      "Remote; San Francisco, CA",
+      "Remote; Denver, CO; New York, NY; San Francisco, CA",
+      "New York, NY; Remote",
+      "New York, NY; Seattle, WA; San Francisco, CA",
+      "Remote; Seattle, WA; London; New York, NY; San Francisco, CA"
+    ],
+    "job_source": {
+      "source": "ashby",
+      "board": "runway-ml"
+    },
+    "coverage": "Public board snapshot imported; verify freshness using dataset_status.",
+    "evidence": [
+      {
+        "kind": "engineering",
+        "url": "https://jobs.ashbyhq.com/runway-ml/8489a08a-f0cf-4418-968c-c7c803d538bc",
+        "checked_at": "2026-09-27T09:26:24.570270+00:00",
+        "claim": "Employer posting: Member of Technical Staff, Backend Engineer, API; source-reported work, not verified mentorship.",
+        "excerpt": "We are building AI to simulate the world through merging art and science.\n\nWe believe that world models are at the frontier of progress in artificial intelligence. Language models alone won’t solve the world’s hardest problems – robotics, disease, scientific discovery. Real progress requires models that experience the world and learn from their mis"
+      },
+      {
+        "kind": "engineering",
+        "url": "https://jobs.ashbyhq.com/runway-ml/0b7b8839-037f-4ccf-886b-6d247923601c",
+        "checked_at": "2026-09-27T09:26:24.570270+00:00",
+        "claim": "Employer posting: Member of Technical Staff, Applied Research Scientist; source-reported work, not verified mentorship.",
+        "excerpt": "We are building AI to simulate the world through merging art and science.\n\nWe believe that world models are at the frontier of progress in artificial intelligence. Language models alone won’t solve the world’s hardest problems – robotics, disease, scientific discovery. Real progress requires models that experience the world and learn from their mis"
+      }
+    ],
+    "unknowns": [
+      "Actual mentorship access and team resources",
+      "Current funding and runway",
+      "Role-specific eligibility and sponsorship"
+    ]
+  }
+]

@@ -6,6 +6,11 @@ separate SQLite database on your Mac's Docker storage, and exposes four read-onl
 MCP tools. Collection, updates, keyword search and skill counts make no LLM calls.
 Your LibreChat conversations still incur your selected provider's API charges.
 
+The companion [local research service](RESEARCH.md) adds passage ranking, paged
+source reading, a sourced employer catalog and computing-role search. The current
+catalog covers all six MANGOS targets; use its status tools for actual imported
+job coverage, freshness and remaining gaps.
+
 ## Career advisor project direction
 
 Read [ADVISOR.md](ADVISOR.md) for the user's requirements, privacy and cost
@@ -45,8 +50,8 @@ The repository documents do not automatically enter a model's context.
    update an uploaded copy; replace the agent attachment when a profile is revised.
 
 The saved agent and reference upload/retrieval have been verified, including
-user-supplied successful chat responses. Web research remains unverified for this
-agent. See ADVISOR.md for the tested File Search configuration and later updates.
+user-supplied successful chat responses. Web research now has verified tool-level
+checks; see RESEARCH.md for implementation, limits and user-facing acceptance tests.
 
 ## Install in VS Code
 

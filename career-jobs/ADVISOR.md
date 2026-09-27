@@ -7,6 +7,99 @@ Read it before changing this integration. Later explicit user instructions take
 precedence. Update verified status and decisions as work proceeds; never mark a
 proposal implemented without checking the actual installation.
 
+## Current implementation — 2026-09-27
+
+The user's latest authorized sequence is passage selection/citation repair, then
+the companies/teams/jobs collection. This supersedes the older proposed ordering
+below. See [RESEARCH.md](RESEARCH.md) for implementation, limits and acceptance
+prompts. Earlier dated status entries are historical, not current coverage.
+
+- Native Web Search now uses a local BM25 reranker through its Jina-compatible
+  adapter. It does not call the paid Jina service. The previously lost late-page
+  eligibility marker survives the real installed search pipeline after ranking.
+- The new `career_research` MCP service supplies `read_page`, `search_companies`,
+  `get_company`, `research_status` and `search_opportunities`. All five were
+  discovered and called from the API container. The saved Career Advisor now has
+  these tools alongside File Search, Web Search and the original four job tools;
+  versioned updates preserved its existing instructions and attached references.
+- `read_page` returns source URLs, dates, snapshot IDs, explicit truncation and
+  paged text. Inspecting the saved RC/LFX response confirmed reused search markers
+  could resolve to a newer search's sources. Instructions now require explicit
+  Markdown web URLs and source reads for material claims. This mitigates the
+  advisor's path; it does not fix LibreChat's general citation renderer, repair
+  old messages, or establish that every future model citation is correct.
+- `companies.json` contains 34 employers, including all six MANGOS targets.
+  Twenty-eight employers have 29 imported boards; Anyscale has two. Google,
+  Meta, NVIDIA, Clio, Macro and Mistral AI remain discovery-only. Seven company
+  records have attributed funding evidence. Team descriptions and regions are
+  sampled evidence, not comprehensive maps or verified mentorship quality.
+- Final deployed query on 2026-09-27 returned 8,155 active source postings,
+  including 2,423 matches under the computing-title heuristic. These are snapshot
+  counts, not independently confirmed open or globally unique vacancies.
+  The job database has expanded from the original three boards. All original
+  postings are retained; search defaults to a transparent computing-title
+  heuristic, with unrestricted search available for ambiguous titles. Full job
+  requirements remain in `get_job_details`. No personalized ranking, global
+  deduplication or automatic refresh is implemented. The import report records
+  attempted board identities and corrections, including distinct Runway AI and
+  Runway (Financial Planning) sources.
+- Research configuration is in `career-jobs/research.yaml`, using the new shared
+  schema. The current prebuilt API image cannot accept `careerResearch` at the
+  root of its own YAML until rebuilt, so that field is deliberately absent there.
+  The new service has no published host port or model-provider credential.
+
+Focused strict TypeScript compilation, research regression tests and the eight
+existing ingestion tests passed. Full workspace typechecks were attempted but
+production dependencies lack development/test packages. Lighthouse could not
+start because local dependencies (`rimraf`) are missing. No paid model call was
+made for this work. A fresh model response in LibreChat still needs evaluation
+for instruction adherence, factual support and developmental usefulness.
+
+Next: test source links and company/job comparison in a new saved-agent chat;
+then assess one real project and evaluate whether recommendations improve access
+to exceptional engineers, technical ownership, mentorship and long-term growth.
+Broader collection alone does not satisfy the personalized coaching requirement.
+
+## Proposed first-release completion gates
+
+Recorded 2026-09-27 in response to the user's request for remaining steps and a
+definition of completion. These are proposed acceptance gates, not passed checks
+or a calendar delivery commitment. The research/data foundation is usable; the
+personalized mentorship product is not complete.
+
+1. Evaluate fresh saved-agent answers end to end: correct personal facts,
+   source-supported web claims, correct citation destinations, honest coverage,
+   and appropriate handling of missing/stale evidence and tool failures.
+2. Implement editable private cross-chat context for approved profile facts,
+   demonstrated skills, project assessments, goals, plans and progress. Verify
+   corrections, deletion and retrieval in a fresh conversation. Assess an actual
+   user-selected project at a recorded revision, including individual ownership.
+3. Implement explainable opportunity comparisons separating current readiness
+   from developmental value: colleagues, feedback access, systems ownership,
+   resources and progression toward technical leadership/founding. Unknowns
+   become explicit research or interview questions, not invented scores. Test
+   that prestige/funding alone and a rigid working-hours cap do not drive advice.
+4. Extend linked evidence to the three professional-profile groups and relevant
+   learning/mentorship opportunities. For finalists, verify source evidence,
+   technical outputs, feedback access, prerequisites, eligibility, costs and
+   current application status. Collection counts are not acceptance thresholds.
+5. Maintain agreed employer/hub coverage, including visible gaps for MANGOS;
+   add refresh/failure visibility, duplicate grouping and structured requirement
+   evidence. Establish usage accounting and tested cost controls before unattended
+   paid research. An objectively largest worldwide job database is not a bounded
+   or currently demonstrable completion criterion.
+6. Demonstrate two complete coaching cycles: assess -> choose next role/program
+   and development task -> review real work -> revise advice -> resume correctly
+   in a fresh chat. Produce an evidence-based next-role shortlist, a 90-day plan
+   and a revisable long-term roadmap. Track actions and observed outcomes.
+
+First-release acceptance requires these observable capabilities and evaluation
+results, including user feedback on usefulness. It does not require a particular
+job offer, imitate a role model's exact trajectory, promise perfect CTO-level
+judgment, or claim private networks. Ongoing source maintenance and coaching
+continue after release. Next implementation priority after answer verification:
+private durable context plus the first project assessment, before more bulk jobs.
+
 ## Objective
 
 Build an evidence-based personal advisor that helps the user become an excellent
@@ -459,6 +552,72 @@ Done when agreed evaluation cases pass, costs per task are observable, and any
 claimed enforced cap is tested rather than inferred from provider alerts.
 
 ## Immediate next action
+
+Outcome-focused expansion proposal recorded in MENTORSHIP.md on 2026-09-27:
+repair retrieval/citations, assess one project with durable personal context,
+build a curated linked collection of teams/jobs, professional examples and
+learning opportunities, then evaluate developmental matching and a concrete
+action/review loop. Pilot collection sizes are proposals, not completed work.
+Broad coverage remains an objective; record count alone cannot establish
+completeness, mentorship quality or personal relevance.
+
+Latest user-reported outcome on 2026-09-27: RC/LFX comparison completed after
+the reported rate-limit increase. It is an initial comparison, with live LFX
+listings, actual mentor quality and project fit still unassessed. Original
+citation links need checking because copied labels name Linux Foundation even
+beside RC claims. This is not yet a verified factual/citation-quality pass.
+
+Read-only research quality audit found that the installed no-reranker path
+selects the first five chunks of each fetched page, then expands them. An
+offline 28,319-character synthetic page lost a relevant eligibility marker near
+the end. Runtime defaults are 50,000 cleaned characters per page and 50,000
+highlight characters per search output; neither relevant environment override
+is set. Improving passage recall/direct reading and testing citation correctness
+should precede bulk collection. Proposed hybrid of live search and a curated,
+dated local evidence library is described in WEB_RESEARCH.md; not implemented.
+
+Latest user-reported configuration on 2026-09-27: model limits raised to
+500,000 TPM / 500 RPM for Astra and Sol, 200,000 TPM / 500 RPM for Luna,
+1,000,000 TPM / 3,000 RPM for text-embedding-3-large, and default
+250,000 TPM / 3,000 RPM. These are reported settings, not independently read
+from the account or verified by a successful subsequent request. Retry the
+Recurse/LFX comparison with the saved Career Advisor; provider-side limit
+changes do not require a Docker restart. Confirm that the effective limit for
+the project used by LibreChat now matches the reported setting if an error
+recurs. No model, retrieval or spending changes are needed for this test.
+
+Latest user-facing test on 2026-09-27: saved-agent search now uses separate
+queries and retries an empty result. The recorded turn made four web searches
+and one file search, returning 75,310 total characters before an OpenAI TPM
+error. This confirms the previous query guidance took effect and content reaches
+the agent. The error reports gpt-6-sol limit 50,000 TPM, used 36,255, requested
+25,121, retry after about 13.7 seconds; the user's organization limits display
+500,000 TPM for Sol. A lower project limit is a hypothesis, not yet verified in
+the account. Model parameters are empty on the saved agent. No provider cap,
+model, spending setting or retrieval depth changed during this read-only check.
+Check the exact project's model rate limit before recommending credit purchases
+or lowering model quality. See WEB_RESEARCH.md for details and next diagnostics.
+
+Latest search diagnosis on 2026-09-27: user configured Keenable and added native
+web_search to Career Advisor. Its first request combined two subjects and two
+site: filters into one long query. Exact replay through the full installed tool
+reproduced zero results and empty output. Separate official-site queries each
+returned three results and three successful page extractions, including normal
+SSRF-safe agents. Appended short, single-subject query and bounded retry guidance
+to both local INSTRUCTIONS.md and the saved agent through the versioned update
+method (6 -> 7 versions), preserving its other instructions, tools and files.
+User should refresh/select the agent and retry. Full tool success is verified;
+model adherence to the corrected instructions in a new chat is not yet verified.
+No runtime code or provider configuration changed during this diagnosis.
+
+Web-provider investigation on 2026-09-27: installed runtime supports keyless
+Keenable search and page extraction. A direct adapter smoke test returned Recurse
+search results and nonempty content for its application page; results included
+legacy URLs and stale deadline text in snippets, so broad quality/freshness is
+not established. No provider configuration or saved-agent tool attachment was
+changed. See [WEB_RESEARCH.md](WEB_RESEARCH.md) for keyless setup, one-key Tavily
+fallback, verified current free-tier references and user-facing acceptance test.
+Web discovery is separate from importing more boards into career_jobs.
 
 Reference attachment and user-facing retrieval now work. The user's subsequent
 coaching response also cited profile.md correctly for profile evidence; accurate

@@ -1,0 +1,268 @@
+{
+  "checked_at": "2026-09-27T09:24:10.173637+00:00",
+  "scope": "Initial target-company expansion, not worldwide coverage. Counts are source postings, not deduplicated unique jobs.",
+  "attempts": [
+    {
+      "company": "Stripe",
+      "source": "greenhouse",
+      "board": "stripe",
+      "postings": 702,
+      "error": null
+    },
+    {
+      "company": "Anthropic",
+      "source": "greenhouse",
+      "board": "anthropic",
+      "postings": 618,
+      "error": null
+    },
+    {
+      "company": "OpenAI",
+      "source": "ashby",
+      "board": "openai",
+      "postings": 830,
+      "error": null
+    },
+    {
+      "company": "Linear",
+      "source": "ashby",
+      "board": "linear",
+      "postings": 30,
+      "error": null
+    },
+    {
+      "company": "Macro",
+      "source": "ashby",
+      "board": "macro",
+      "postings": null,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "company": "Rilla",
+      "source": "ashby",
+      "board": "rilla",
+      "postings": 30,
+      "error": null
+    },
+    {
+      "company": "Federato",
+      "source": "greenhouse",
+      "board": "federato",
+      "postings": 8,
+      "error": null
+    },
+    {
+      "company": "WeRide",
+      "source": "lever",
+      "board": "weride",
+      "postings": 17,
+      "error": null
+    },
+    {
+      "company": "Cursor",
+      "source": "ashby",
+      "board": "cursor",
+      "postings": 126,
+      "error": null
+    },
+    {
+      "company": "SpaceX",
+      "source": "greenhouse",
+      "board": "spacex",
+      "postings": 2595,
+      "error": null
+    },
+    {
+      "company": "Vercel",
+      "source": "greenhouse",
+      "board": "vercel",
+      "postings": 88,
+      "error": null
+    },
+    {
+      "company": "Ramp",
+      "source": "ashby",
+      "board": "ramp",
+      "postings": 158,
+      "error": null
+    },
+    {
+      "company": "Notion",
+      "source": "greenhouse",
+      "board": "notion",
+      "postings": null,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "company": "Databricks",
+      "source": "greenhouse",
+      "board": "databricks",
+      "postings": 887,
+      "error": null
+    },
+    {
+      "company": "Figma",
+      "source": "greenhouse",
+      "board": "figma",
+      "postings": 163,
+      "error": null
+    },
+    {
+      "company": "Datadog",
+      "source": "greenhouse",
+      "board": "datadog",
+      "postings": 449,
+      "error": null
+    },
+    {
+      "company": "Modal",
+      "source": "ashby",
+      "board": "modal",
+      "postings": 39,
+      "error": null
+    },
+    {
+      "company": "Cohere",
+      "source": "ashby",
+      "board": "cohere",
+      "postings": 147,
+      "error": null
+    },
+    {
+      "company": "Anyscale",
+      "source": "lever",
+      "board": "anyscale",
+      "postings": 1,
+      "error": null
+    },
+    {
+      "company": "Scale AI",
+      "source": "greenhouse",
+      "board": "scaleai",
+      "postings": 203,
+      "error": null
+    },
+    {
+      "company": "Abridge",
+      "source": "ashby",
+      "board": "abridge",
+      "postings": 47,
+      "error": null
+    },
+    {
+      "company": "Perplexity",
+      "source": "ashby",
+      "board": "perplexity",
+      "postings": 123,
+      "error": null
+    },
+    {
+      "company": "Runway",
+      "source": "greenhouse",
+      "board": "runwayml",
+      "postings": null,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "company": "Together AI",
+      "source": "greenhouse",
+      "board": "togetherai",
+      "postings": 78,
+      "error": null
+    },
+    {
+      "company": "Mercor",
+      "source": "ashby",
+      "board": "mercor",
+      "postings": 114,
+      "error": null
+    },
+    {
+      "company": "Mistral AI",
+      "source": "lever",
+      "board": "mistral",
+      "postings": 0,
+      "error": null
+    },
+    {
+      "company": "Adyen",
+      "source": "greenhouse",
+      "board": "adyen",
+      "postings": 210,
+      "error": null
+    },
+    {
+      "company": "Clio",
+      "source": "greenhouse",
+      "board": "clio",
+      "postings": null,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "company": "ElevenLabs",
+      "source": "ashby",
+      "board": "elevenlabs",
+      "postings": 207,
+      "error": null
+    },
+    {
+      "company": "Waabi",
+      "source": "lever",
+      "board": "waabi",
+      "postings": 87,
+      "error": null
+    },
+    {
+      "company": "Notion",
+      "source": "ashby",
+      "board": "notion",
+      "postings": 128,
+      "error": null
+    },
+    {
+      "company": "Runway",
+      "source": "ashby",
+      "board": "runway",
+      "postings": 4,
+      "error": null
+    },
+    {
+      "company": "Clio",
+      "source": "ashby",
+      "board": "clio",
+      "postings": null,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "company": "Mistral AI",
+      "source": "ashby",
+      "board": "mistral",
+      "postings": null,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "company": "Mistral AI",
+      "source": "lever",
+      "board": "mistral.ai",
+      "postings": null,
+      "error": "Invalid board slug"
+    },
+    {
+      "company": "Anyscale",
+      "source": "ashby",
+      "board": "anyscale",
+      "postings": 22,
+      "error": null
+    },
+    {
+      "company": "Runway AI",
+      "source": "ashby",
+      "board": "runway-ml",
+      "postings": 44,
+      "error": null
+    }
+  ],
+  "identity_corrections": [
+    "Ashby runway is Runway (Financial Planning), not Runway AI. Corrected stored company names; Runway AI imported from official careers-linked runway-ml board."
+  ]
+}

@@ -1,0 +1,11 @@
+# Same careerResearch schema registered in packages/data-provider/src/config.ts.
+# Separate file for the sidecar while the prebuilt LibreChat image lacks that field.
+careerResearch:
+  port: 8001
+  pageChars: 8000
+  storedPageChars: 250000
+  fetchTimeoutMs: 20000
+  responseBytes: 2000000
+  requestBytes: 2000000
+  cacheEntries: 30
+  maxDocuments: 5000

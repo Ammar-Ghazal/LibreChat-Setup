@@ -1,6 +1,9 @@
 # Merge into LibreChat/docker-compose.override.yml under its existing services.
 services:
   api:
+    environment:
+      CAREER_RERANKER_URL: http://career-research:8001/v1/rerank
+      CAREER_RERANKER_KEY: local-service-placeholder
     volumes:
       - type: bind
         source: ./librechat.yaml
@@ -15,6 +18,21 @@ services:
       - career-jobs-data:/data
       - ./career-jobs/sources.json:/app/sources.json:ro
     # No published host port. Accessible within the Compose network only.
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+  career-research:
+    build:
+      context: .
+      dockerfile: career-jobs/research.Dockerfile
+    user: '10001:10001'
+    restart: unless-stopped
+    volumes:
+      - ./career-jobs/research.yaml:/app/librechat.yaml:ro
+      - ./career-jobs/companies.json:/app/companies.json:ro
+      # WAL shared-memory files need filesystem writes; database connection is read-only.
+      - career-jobs-data:/data
     security_opt:
       - no-new-privileges:true
     cap_drop:
