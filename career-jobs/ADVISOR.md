@@ -1,6 +1,6 @@
 # Career advisor specification and delivery plan
 
-Last updated: 2026-09-26 (Asia/Dubai).
+Last updated: 2026-09-27 (Asia/Dubai).
 
 This is the durable project brief for continuing the user's career-advisor work.
 Read it before changing this integration. Later explicit user instructions take
@@ -299,6 +299,22 @@ persisting personal documents. This specification is not the user's resume store
   reinstalling or repeatedly asking permission for ordinary maintenance.
 
 ## Verified baseline
+
+Restart check on 2026-09-27 after the user reported running Compose down/up:
+all six services (api, mongodb, meilisearch, vectordb, rag_api, jobs) are running.
+LibreChat /health and rag_api /health return HTTP 200 from the API container.
+The jobs status command still reports 750 postings across the original three
+boards, last synced 2026-09-26; restart did not refresh the dataset. This check
+did not repeat a model conversation or semantic retrieval.
+
+Saved Career Advisor metadata now confirms gpt-6-sol, File Search and the four
+career_jobs tools. Its saved instructions include the automatic-focus-switch
+instruction (17,250 characters total; exact full-template equality not checked).
+Only profile.md and ECOSYSTEM.md are attached, both marked embedded; the private
+role-model catalog is not attached. No web-search tool is attached to this agent.
+Do not keep telling the user automatic-mode instructions are unapplied; their
+presence is now verified. Repository status was clean on main tracking origin/main
+before recording this status update. No runtime configuration changed in this check.
 
 As of the 2026-09-26 session:
 
